@@ -2,6 +2,7 @@
 ## Table of Content
 - [Where is the source code?](#where-is-the-source-code)
 - [Application description](#application-description)
+- [VirtHandler in action](#virthandler-in-action)
 #### Application setup
 - [How to install the application](./setup-help.md#how-to-install)
 #### Creation of a new Virtual Machine
@@ -33,6 +34,6 @@ VirtHandler is a **Virtual Machine Manager** for the macOS operating system. The
 
 It features English and Italian localization!
 
-# Previews
+# VirtHandler in action
 ![screenshot1](./Screenshots/creating.png)
 ![screenshot1](./Screenshots/running.png)
