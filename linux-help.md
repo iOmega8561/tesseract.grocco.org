@@ -1,4 +1,4 @@
-# [<- Back to main page](../README.md)
+# [<- Back to main page](./README.md)
 
 # Linux virtual machine instructions
 ## Before you start
