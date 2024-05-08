@@ -13,7 +13,7 @@
 
 ## Where is the source code?
 VirtHandler is currently hosted on a private repository. This is the official documentation, and binary releases will also be published here.
-Also, this is the right place to open up abount issues, therefore feel free to report any bugs and broken features! 
+Also, this is the right place to open up about issues, therefore feel free to report any bugs and broken features! 
 
 <ins>**VirtHandler is currently in beta and soon it will aproach AppStore release, until then i will upload free testing builds on this repository's Release section**</ins>
 
