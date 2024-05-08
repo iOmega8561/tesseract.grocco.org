@@ -1,6 +1,6 @@
 # VirtHandler's official Wiki
 ## Table of Content
-- [Where is the source code?](#where-is-the-source-code?)
+- [Where is the source code?](#where-is-the-source-code)
 #### Application setup
 - [How to install the application](./setup-help.md#how-to-install)
 #### Creation of a new Virtual Machine
