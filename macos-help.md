@@ -35,7 +35,7 @@ In order to be able to install macOS on you shiny new virtual machine, you need 
 - Select the .IPSW image you just downloaded
 <div align="center"> <img src="./Screenshots/pickafile-ipsw-picker.png" width="600"/> </div>
 
-- Select the Performance profile that you prefer (leave Balanced if you don't care)
+- Select the Performance profile that you prefer (leave **Balanced** if you don't care)
 <div align="center"> <img src="./Screenshots/presets-mac.png" width="400"/> </div>
 
 ⚠️ **IN CASE OF CUSTOM PARAMETERS** ⚠️  
