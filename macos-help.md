@@ -69,6 +69,6 @@ When the installation reaches 100%, a button labeled "**OK**" will appear on the
 And that's it! You can now start your fresh macOS virtual machine!
 
 ## A sidenote on this procedure
-Don't throw away your .IPSW files! VirtHandler needs them to initialize your virtual machine every time you start the application. If the origina file is deleted, or moved, the virtual machine will report a configuration error.
+Don't throw away your .IPSW files! VirtHandler needs them to initialize your virtual machine every time you start the application. If the original file is deleted, or moved, the virtual machine will report a configuration error.
 Don't worry, you can always tell VirtHandler to use another file: select your VM from the main menu and click on the installation media to select a new one.
 <div align="center"> <img src="./Screenshots/installmedia.png" width="700"/> </div>
