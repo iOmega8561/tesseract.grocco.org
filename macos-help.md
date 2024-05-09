@@ -22,9 +22,7 @@ In order to be able to install macOS on you shiny new virtual machine, you need 
   - (*Optional*) While the gargantuan download finishes, you can sip off a cup of tea
 <div align="center"> <img src="./Screenshots/ipsw-download.png" width="350"/> </div>
 
-## Creation of the virtual machine
-- Download an official macOS restore image (file extension .IPSW) from [this website](https://ipsw.me/VirtualMac2,1)
-  
+## Creation of the virtual machine  
 - Start VirtHandler, and click on "**+ Create a new Virtual Machine**"
 <div align="center"> <img src="./Screenshots/createnew.png" width="200"/> </div>
 
