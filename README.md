@@ -7,8 +7,8 @@
 - [How to install the application](./setup-help.md#how-to-install)
 #### Creation of a new Virtual Machine
 - [Linux virtual machine instructions](./linux-help.md)
-  - [Accessig your shared directory on Linux](./linux-help.md#how-to-access-the-shared-folder)
-  - [Running Intel binaries on Linux with Rosetta 2](https://developer.apple.com/documentation/virtualization/running_intel_binaries_in_linux_vms_with_rosetta#3978496) (Official Apple documentation)
+  - [Accessig your shared directory on Linux](./linux-help-additional.md)
+  - [Running Intel binaries on Linux with Rosetta 2](./linux-help-additional.md)
 - [macOS virtual machine instructions](./macos-help.md)
 
 ## Where is the source code?
