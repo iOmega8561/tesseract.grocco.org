@@ -34,7 +34,7 @@ As before said, you are free to use whatever Linux distribution you want, as lon
 - Select the desired performance preset (if you don't care leave it on **Balanced**)
 <div align="center"> <img src="./Screenshots/presets-linux.png" width="400"/> </div>
 
-⚠️ **IN CASE OF CUSTOM PARAMETERS** ⚠️
+⚠️ **IN CASE OF CUSTOM PARAMETERS** ⚠️  
 Depending on what kind of Linux environment you want, the minimum requirements may change drastically. To make things simple for you, VirtHandler's default values are tailored to give enough breathing room for most use cases. Also, your physical mac will not slow-down due to having an excessive amount of resources allocated to the VM.
 <div align="center"> <img src="./Screenshots/hardware.png" width="400"/> </div>
 
