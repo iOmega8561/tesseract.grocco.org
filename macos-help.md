@@ -53,6 +53,8 @@ All of these options are straight forward. The only one that may require some ex
 ## macOS installation process
 Select your newly created virtual machine from the menu on your left. You will see that the start button in the top right corner is locked.
 - Click on the little **Play button** in the top right corner to start the VM
+<div align="center"> <img src="./Screenshots/playbutton.png" width="400"/> </div>
+
 - Select "**Confirm**" when the alert dialog pops up
 <div align="center"> <img src="./Screenshots/dataloss.png" width="200"/> </div>
 
