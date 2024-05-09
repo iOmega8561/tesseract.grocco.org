@@ -1,5 +1,5 @@
 # Linux additional configuration
-### How to access the shared folder
+## How to access the shared folder
 On Linux unfortunately it is required to perform a couple of steps before using the shared directory that VirtHandler set up for you earlier. It is definitely not a hard process i would say, let's go through it together!
 - Open a terminal prompt and create a new directory, replacing **MyCustomDirName** with the name you want for this new folder
 <div align="center"> <img src="./Screenshots/linux-mkdir.png" width="600"/> </div>
@@ -10,14 +10,14 @@ On Linux unfortunately it is required to perform a couple of steps before using 
 And that's it, now you can access **MyCustomDirName** and share content with your mac operating system!
 <div align="center"> <img src="./Screenshots/linux-shared.png" width="400"/> </div>
 
-### How to use Rosetta 2 in Linux
+## How to use Rosetta 2 in Linux
 Rosetta 2 is enabled by default with every Linux virtual machine on VirtHandler, but unfortunately it takes some more steps to get it configured and functional. Don't worry though, we'll go through it together!
 
-#### ⚠️ BEFORE WE START ⚠️ 
+### ⚠️ BEFORE WE START ⚠️ 
 This procedure requires the ```update-binfmts``` command. The installation will not be the same depending on the Linux distribution you choose.  
 For Debian and derivates it is:  ```sudo apt install update-binfmts```
 
-- Firt, we want to create a new temporary mountpoint  
+- First, we want to create a new temporary mountpoint  
 ``` mkdir /tmp/mountpoint ```
 - Now we mount Rosetta 2 shared directory with this command  
 ```sudo mount -t virtiofs ROSETTA_SHARE /tmp/mountpoint ```
