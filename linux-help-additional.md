@@ -11,20 +11,18 @@ And that's it, now you can access **MyCustomDirName** and share content with you
 <div align="center"> <img src="./Screenshots/linux-shared.png" width="400"/> </div>
 
 ### How to use Rosetta 2 in Linux
-Rosetta 2 is enable by default with Linux virtual machine, but unfortunately it takes some more steps to get it configured and functional, we'll go through it together!
+Rosetta 2 is enabled by default with every Linux virtual machine on VirtHandler, but unfortunately it takes some more steps to get it configured and functional. Don't worry though, we'll go through it together!
+
+#### ⚠️ BEFORE WE START ⚠️ 
+This procedure requires the ```update-binfmts``` command. The installation will not be the same depending on the Linux distribution you choose.  
+For Debian and derivates it is:  ```sudo apt install update-binfmts```
+
 - Firt, we want to create a new temporary mountpoint  
 ``` mkdir /tmp/mountpoint ```
 - Now we mount Rosetta 2 shared directory with this command  
 ```sudo mount -t virtiofs ROSETTA_SHARE /tmp/mountpoint ```
 - Let's check if everything went well! This command should have some output  
 ```ls /tmp/mountpoint rosetta```
-- Now, you have to install the **update-binfmts** command.
-
-⚠️ **WARNING** ⚠️  
-This step will not be the same depending on the Linux distribution you choose.  
-For Debian and derivates it is:  
-```sudo apt install update-binfmts```
-
 - Next, we use this command to install Rosetta  
 ```
 sudo /usr/sbin/update-binfmts --install rosetta /tmp/mountpoint/rosetta \
