@@ -5,17 +5,26 @@ The process for creating a macOS virtual machine is in every aspect identical to
 ## Before you start
 Unfortunately due to a limitation imposed by Apple, you can create as many macOS VMs as you want, but **you can only start two at any given time**. If you try to start more than two macOS virtual machines, you will greeted by one of these errors below
 <div align="center">
-<img src="./Screenshots/toomanymac.png" width="300"/>
-<img src="./Screenshots/installfailed.png" width="400"/>
+  <img src="./Screenshots/toomanymac.png" width="300"/>
+  <img src="./Screenshots/installfailed.png" width="400"/>
   <img src="./Screenshots/installfailed-alert.png" width="300"/>
 </div>
 
 ## Acquiring a macOS restore image
 In order to be able to install macOS on you shiny new virtual machine, you need a **macOS recovery image**. You can find them on the internet but don't worry if you don't know where to look for, because we got you covered: use [**this website**](https://ipsw.me/VirtualMac2,1)
+- Select the desired macOS version from the list of available images
+<div align="center"> <img src="./Screenshots/ipsw.png" width="600"/> </div>
+
+- Click on the **big blue download button**
+<div align="center"> <img src="./Screenshots/ipsw-download-button.png" width="200"/> </div>
+
+- Congratulations you have a restore image!
+  - (*Optional*) While the gargantuan download finishes, you can sip off a cup of tea
+<div align="center"> <img src="./Screenshots/ipsw-download.png" width="350"/> </div>
 
 ## Creation of the virtual machine
 - Download an official macOS restore image (file extension .IPSW) from [this website](https://ipsw.me/VirtualMac2,1)
-  - (*Optional*) While the gargantuan download finishes, you can sip off a cup of tea
+  
 - Start VirtHandler, and click on "**+ Create a new Virtual Machine**"
 <div align="center"> <img src="./Screenshots/createnew.png" width="200"/> </div>
 
