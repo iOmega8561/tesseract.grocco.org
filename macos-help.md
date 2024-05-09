@@ -2,6 +2,17 @@
 
 # macOS virtual machine instructions
 The process for creating a macOS virtual machine is in every aspect identical to creating a Linux one. The differences start with the installation of the operating system: every Linux distribution out there provides their own installer, and that means that the installation process is up to the user to be done. With a macOS VM, VirtHandler will guide you all the way through.
+## Before you start
+Unfortunately due to a limitation imposed by Apple, you can create as many macOS VMs as you want, but **you can only start two at any given time**. If you try to start more than two macOS virtual machines, you will greeted by one of these errors below
+<div align="center">
+<img src="./Screenshots/toomanymac.png" width="300"/>
+<img src="./Screenshots/installfailed.png" width="400"/>
+  <img src="./Screenshots/installfailed-alert.png" width="300"/>
+</div>
+
+## Acquiring a macOS restore image
+In order to be able to install macOS on you shiny new virtual machine, you need a **macOS recovery image**. You can find them on the internet but don't worry if you don't know where to look for, because we got you covered: use [**this website**](https://ipsw.me/VirtualMac2,1)
+
 ## Creation of the virtual machine
 - Download an official macOS restore image (file extension .IPSW) from [this website](https://ipsw.me/VirtualMac2,1)
   - (*Optional*) While the gargantuan download finishes, you can sip off a cup of tea
@@ -17,13 +28,15 @@ The process for creating a macOS virtual machine is in every aspect identical to
 - Select the .IPSW image you just downloaded
 <div align="center"> <img src="./Screenshots/pickafile-ipsw-picker.png" width="600"/> </div>
 
-- Input your desired hardware specifications
-  - ⚠️ VirtHandler will notify you if the specifications you set don't meet the minimum requirements
+- Select the Performance profile that you prefer (leave Balanced if you don't care)
+<div align="center"> <img src="./Screenshots/presets-mac.png" width="400"/> </div>
+
+⚠️ In case you want to set **custom parameters**, VirtHandler will notify you if the specifications you set don't meet the minimum requirements ⚠️
 <div align="center"> <img src="./Screenshots/warning.png" width="400"/> </div>
 
 - Select the optional features to enable for your virtual machine
 
-All of these options are straight forward. The only one that may require some exta expaination is **"Enable shared directory"**: this option creates for you a folder that is shared between your physical mac and your macOS virtual machine, allowing you to transfer documents and other files facilitating you work.
+All of these options are straight forward. The only one that may require some exta explaination is **"Enable shared directory"**: this option creates for you a folder that is shared between your physical mac and your macOS virtual machine, allowing you to transfer documents and other files facilitating you work.
 <div align="center"> <img src="./Screenshots/optionalfeatures.png" width="400"/> </div>
 
 - When you are satisfied with your options, click on **Confirm and Create**
