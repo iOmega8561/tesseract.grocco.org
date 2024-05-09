@@ -54,14 +54,3 @@ All of these options are straight forward. The only one that may require some ex
 
 ### A sidenote on the installation process
 Every Linux distribution out there provides their own installer, unfortunately VirtHandler cannot automate the process for you. However, don't be scared to try and make mistakes, after all it's just a virtual machine, you can scrap it and start from scratch!
-
-### How to access the shared folder
-On Linux unfortunately it is required to perform a couple of steps before using the shared directory that VirtHandler set up for you earlier. It is definitely not a hard process i would say, let's go through it together!
-- Open a terminal prompt and create a new directory, replacing **MyCustomDirName** with the name you want for this new folder
-<div align="center"> <img src="./Screenshots/linux-mkdir.png" width="600"/> </div>
-
-- Input this command, replacing **MyCustomDirName** with the name you chose for the folder that has been just created
-<div align="center"> <img src="./Screenshots/linux-mount.png" width="600"/> </div>
-
-And that's it, now you can access **MyCustomDirName** and share content with your mac operating system!
-<div align="center"> <img src="./Screenshots/linux-shared.png" width="400"/> </div>
