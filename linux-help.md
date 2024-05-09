@@ -12,6 +12,7 @@ Most of Linux distributions out there, provide installation images for **Intel**
 As before said, you are free to use whatever Linux distribution you want, as long as it is compatible with **ARM64** processors, but you may prefer to use one of the following recommended Linux images:
 - [Debian 12 for ARM64](https://cdimage.debian.org/debian-cd/current/arm64/iso-cd/) Good for every use-case
 - [Fedora Workstation 40 Live for ARM64](https://dl.fedoraproject.org/pub/fedora/linux/releases/40/Workstation/aarch64/iso/Fedora-Workstation-Live-osb-40-1.14.aarch64.iso) Ideal to use with a graphical interface
+- [Ubuntu server 24.04 LTS](https://cdimage.ubuntu.com/releases/24.04/release/ubuntu-24.04-live-server-arm64.iso) Ideal for a CLI-base environment, includes lots of good server facilities.
 
 ## Let's get to it!
 - Download the Linux distribution of your choice, in .ISO file format
@@ -30,9 +31,11 @@ As before said, you are free to use whatever Linux distribution you want, as lon
 - Select the previously downloaded .ISO image
 <div align="center"> <img src="./Screenshots/pickafile-iso-picker.png" width="400"/> </div>
 
-- Input your desired hardware specifications
+- Select the desired performance preset (if you don't care leave it on **Balanced**)
+<div align="center"> <img src="./Screenshots/presets-linux.png" width="400"/> </div>
 
-⚠️ Depending on what kind of Linux environment you want, the minimum requirements may change drastically ⚠️. To make things simple for you, VirtHandler's default values are tailored to give enough breathing room for most use cases. Also, your physical mac will not slow-down due to having an excessive amount of resources allocated to the VM.
+⚠️ **IN CASE OF CUSTOM PARAMETERS** ⚠️
+Depending on what kind of Linux environment you want, the minimum requirements may change drastically. To make things simple for you, VirtHandler's default values are tailored to give enough breathing room for most use cases. Also, your physical mac will not slow-down due to having an excessive amount of resources allocated to the VM.
 <div align="center"> <img src="./Screenshots/hardware.png" width="400"/> </div>
 
 - Select the optional features to enable for your virtual machine
@@ -45,6 +48,8 @@ All of these options are straight forward. The only one that may require some ex
 
 - Select your newly created virtual machine from the menu on your left
 - Now you can start it using the button in the top right corner
+<div align="center"> <img src="./Screenshots/playbutton.png" width="400"/> </div>
+
 - Profit
 
 ### A sidenote on the installation process
