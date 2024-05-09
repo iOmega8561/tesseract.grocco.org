@@ -1,7 +1,7 @@
 # [<- Back to main page](./README.md)
 
 # Linux virtual machine instructions
-## Before you start
+## ⚠️ Before you start ⚠️
 Most of Linux distributions out there, provide installation images for **Intel** processors, that are built with the **x86_64** architecture (most of the time they are labeled **amd64**). These images **are not compatible** with VirtHandler, because your mac has an **Apple Silicon** processor, that uses the **ARM64** architecture. If you are knowledgeable enough, feel free to use whatever Linux distribution you prefer.
 
 <div align="center">
