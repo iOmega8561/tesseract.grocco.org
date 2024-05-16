@@ -11,7 +11,7 @@ Unfortunately due to a limitation imposed by Apple, you can create as many macOS
 </div>
 
 ## Acquiring a macOS restore image
-In order to be able to install macOS on you shiny new virtual machine, you need a **macOS recovery image**. You can find them on the internet but don't worry if you don't know where to look for, because we got you covered: use [**this website**](https://ipsw.me/VirtualMac2,1)
+In order to be able to install macOS on your shiny new virtual machine, you need a **macOS recovery image**. You can find them on the internet but don't worry if you don't know where to look for, because we got you covered: use [**this website**](https://ipsw.me/VirtualMac2,1)
 - Select the desired macOS version from the list of available images
 <div align="center"> <img src="./Screenshots/ipsw.png" width="600"/> </div>
 
