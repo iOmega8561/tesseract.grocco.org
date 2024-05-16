@@ -3,7 +3,7 @@
 # macOS virtual machine instructions
 The process for creating a macOS virtual machine is in every aspect identical to creating a Linux one. The differences start with the installation of the operating system: every Linux distribution out there provides their own installer, and that means that the installation process is up to the user to be done. With a macOS VM, VirtHandler will guide you all the way through.
 ## ⚠️ Before you start ⚠️
-Unfortunately due to a limitation imposed by Apple, you can create as many macOS VMs as you want, but **you can only start two at any given time**. If you try to start more than two macOS virtual machines, you will greeted by one of these errors below
+Unfortunately due to a limitation imposed by Apple, you can create as many macOS VMs as you want, but **you can only start two at any given time**. If you try to start more than two macOS virtual machines, you will be greeted by one of these errors below
 <div align="center">
   <img src="./Screenshots/toomanymac.png" width="300"/>
   <img src="./Screenshots/installfailed.png" width="400"/>
