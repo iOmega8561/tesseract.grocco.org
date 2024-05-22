@@ -2,8 +2,9 @@
 
 # macOS virtual machine instructions
 The process for creating a macOS virtual machine is in every aspect identical to creating a Linux one. The differences start with the installation of the operating system: every Linux distribution out there provides their own installer, and that means that the installation process is up to the user to be done. With a macOS VM, VirtHandler will guide you all the way through.
-## ⚠️ Before you start ⚠️
-Unfortunately due to a limitation imposed by Apple, you can create as many macOS VMs as you want, but **you can only start two at any given time**. If you try to start more than two macOS virtual machines, you will be greeted by one of these errors below
+## Before you start
+>[!IMPORTANT]
+>Unfortunately due to a limitation imposed by Apple, you can create as many macOS VMs as you want, but **you can only start two at any given time**. If you try to start more than two macOS virtual machines, you will be greeted by one of these errors below
 <div align="center">
   <img src="./Screenshots/toomanymac.png" width="300"/>
   <img src="./Screenshots/installfailed.png" width="400"/>
@@ -11,7 +12,11 @@ Unfortunately due to a limitation imposed by Apple, you can create as many macOS
 </div>
 
 ## Acquiring a macOS restore image
-In order to be able to install macOS on your shiny new virtual machine, you need a **macOS recovery image**. You can find them on the internet but don't worry if you don't know where to look for, because we got you covered: use [**this website**](https://ipsw.me/VirtualMac2,1)
+>[!IMPORTANT]
+>In order to be able to install macOS on your shiny new virtual machine, you need a **macOS recovery image**. You can find them on the internet.
+
+>[!TIP]
+>Don't worry if you don't know where to look for, because we got you covered: use [**this website**](https://ipsw.me/VirtualMac2,1)
 - Select the desired macOS version from the list of available images
 <div align="center"> <img src="./Screenshots/ipsw.png" width="600"/> </div>
 
@@ -35,16 +40,19 @@ In order to be able to install macOS on your shiny new virtual machine, you need
 - Select the .IPSW image you just downloaded
 <div align="center"> <img src="./Screenshots/pickafile-ipsw-picker.png" width="600"/> </div>
 
-- Select the Performance profile that you prefer (leave **Balanced** if you don't care)
+- Select the Performance profile that you prefer
+>[!TIP]
+>Leave this setting on **Balanced** if you don't care or know exactly what you are doing!
 <div align="center"> <img src="./Screenshots/presets-mac.png" width="400"/> </div>
 
-⚠️ **IN CASE OF CUSTOM PARAMETERS** ⚠️  
-VirtHandler will notify you if the specifications you set don't meet the minimum requirements
+>[!IMPORTANT]
+>**In case of custom parameters**: VirtHandler will notify you if the specifications you set don't meet the minimum requirements
 <div align="center"> <img src="./Screenshots/warning.png" width="400"/> </div>
 
 - Select the optional features to enable for your virtual machine
 
-All of these options are straight forward. The only one that may require some exta explaination is **"Enable shared directory"**: this option creates for you a folder that is shared between your physical mac and your macOS virtual machine, allowing you to transfer documents and other files facilitating you work.
+>[!NOTE]
+>All of these options are straight forward. The only one that may require some exta explaination is **"Enable shared directory"**: this option creates for you a folder that is shared between your physical mac and your macOS virtual machine, allowing you to transfer documents and other files facilitating you work.
 <div align="center"> <img src="./Screenshots/optionalfeatures.png" width="400"/> </div>
 
 - When you are satisfied with your options, click on **Confirm and Create**
