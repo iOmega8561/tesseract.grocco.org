@@ -1,3 +1,5 @@
+# [<- Back to main page](./README.md)
+
 # Linux additional configuration
 ## How to access the shared folder
 >[!IMPORTANT]
