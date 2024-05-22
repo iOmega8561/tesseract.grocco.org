@@ -14,8 +14,9 @@
 ## Where is the source code?
 VirtHandler is currently hosted on a private repository. This is the official documentation, and binary releases will also be published here.
 Also, this is the right place to open up about issues, therefore feel free to report any bugs and broken features! 
-
-<ins>**VirtHandler is currently in beta and soon it will aproach AppStore release, until then i will upload free testing builds on this repository's Release section**</ins>
+>[!IMPORTANT]
+>VirtHandler is currently in beta and soon it will aproach AppStore release.  
+>Until then i will upload free testing builds on this repository's Release section
 
 ## Application description
 VirtHandler is a **Virtual Machine Manager** for the macOS operating system. The minimum supported configuration is **macOS Sonoma**, version 14.0 with **Apple Silicon** hardware *(All Macs from November 2020, going forward, are supported)*. The application has been developed using **SwiftUI** as it's core user interface framework, **SwiftData** for data management and **Apple Virtualization Framework** for the virtual machine magic. **AppKit** was also used, to develop custom functionality that was not achievable with SwiftUI's application life-cycle.
