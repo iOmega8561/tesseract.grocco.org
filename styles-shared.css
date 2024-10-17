@@ -1,0 +1,113 @@
+.button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.section {
+    padding: 60px 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
+
+@media (prefers-color-scheme: dark) {
+    .card {
+        background-color: #201f1f; /* Dark background */
+        color: #ffffff; /* Dark text color */
+    }
+}
+
+.logo {
+    height: 60px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    font-size: 26px;
+}
+
+.warning {
+    background-color: #ffcc00;
+    color: #000;
+    border: 2px solid #ff9900;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.warning strong {
+    margin-right: 10px;
+}
+
+.warning::before {
+    content: "🚨";
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.tip {
+    background-color: #3bd640;
+    color: #000;
+    border: 2px solid #2c872f;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.tip strong {
+    margin-right: 10px;
+}
+
+.tip::before {
+    content: "💡";
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.note {
+    background-color: #7aaaf9;
+    color: #000;
+    border: 2px solid #2c4a87;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.note strong {
+    margin-right: 10px;
+}
+
+.note::before {
+    content: "📌";
+    font-size: 20px;
+    margin-right: 10px;
+}
