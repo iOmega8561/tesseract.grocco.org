@@ -18,15 +18,6 @@ main {
     padding-bottom: 50px;
 }
 
-@media only screen {
-    .hero-horizontal {
-        padding-top: 40px;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-}
-
 .hero-horizontal-sub {
     min-width: 500px;
     width: 50%;
@@ -83,4 +74,32 @@ a {
 
 a:hover {
     text-decoration: underline; /* Sottolinea al passaggio del mouse */
+}
+
+@media only screen {
+    .hero-horizontal {
+        padding-top: 40px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    #sequoia-vm {
+        content: url('./assets/sequoia-vm-dark.png');
+    }
+
+    #fedora-vm {
+        content: url('./assets/fedora-vm-dark.png');
+    }
+
+    body {
+        background: linear-gradient(to bottom, #182d40, #385f82, #66849c);
+    }
+
+    footer {
+        background-color: #201f1f; /* Bianco per il footer */
+        color: #fff;
+    }
 }

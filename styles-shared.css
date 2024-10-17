@@ -25,13 +25,6 @@
     margin: 20px;
 }
 
-@media (prefers-color-scheme: dark) {
-    .card {
-        background-color: #201f1f; /* Dark background */
-        color: #ffffff; /* Dark text color */
-    }
-}
-
 .logo {
     height: 60px;
     margin-right: 20px;
@@ -110,4 +103,38 @@
     content: "📌";
     font-size: 20px;
     margin-right: 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+
+    .button {
+        background-color: #115195;
+    }
+
+    .button:hover {
+        background-color: #002b5a;
+    }
+
+    .card {
+        background-color: #201f1f; /* Dark background */
+        color: #ffffff; /* Dark text color */
+    }
+
+    .warning {
+        background-color: #8e7100;
+        color: #fff;
+        border: 2px solid #945900;
+    }
+
+    .tip {
+        background-color: #1f6c22;
+        color: #fff;
+        border: 2px solid #1e5a20;
+    }
+
+    .note {
+        background-color: #3d5479;
+        color: #fff;
+        border: 2px solid #192949;
+    }
 }
