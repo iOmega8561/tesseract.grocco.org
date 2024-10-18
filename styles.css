@@ -39,7 +39,7 @@ main {
     flex-direction: column;
     line-height: 50px;
     align-items: center;
-    padding-top: 60px;
+    padding-top: 20px;
 }
 
 header {
@@ -70,10 +70,6 @@ footer {
 a {
     color: #ffffff; /* Colore blu Apple */
     text-decoration: none; /* Nessuna sottolineatura */
-}
-
-a:hover {
-    text-decoration: underline; /* Sottolinea al passaggio del mouse */
 }
 
 @media only screen {
