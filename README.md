@@ -17,8 +17,6 @@
 - [Technologies Used](#technologies-used)
 - [Minimum Requirements](#minimum-requirements)
 - [Getting Started](#getting-started)
-  - [Download from the Mac App Store](#download-from-the-mac-app-store)
-  - [Download from Latest Release](#download-from-latest-release)
 - [License](#license)
 - [Contact](#contact)
 
@@ -44,7 +42,8 @@ VirtHandler is developed using the latest Apple technologies to provide a seamle
 - **VirtualizationKit**: for having a solid foundation to build robust and compelling virtualization features.
 
 > [!NOTE]
-> VirtualizationKit is a custom framework built from scratch entirely by me, that wraps Apple's own Virtualization Framework and enhances performance and stability.
+> VirtualizationKit is a new, modern, custom framework, built from scratch entirely by me.  
+> This framework wraps Apple's own Virtualization Framework and enhances performance and stability.
 
 ## Minimum Requirements
 
@@ -72,6 +71,10 @@ Alternatively, you can download the latest release directly from our repository:
 ## License
 
 The website hosted in this repository is distributed under the MIT License. See [LICENSE](LICENSE) for more information.
+
+> [!CAUTION]
+> The VirtHandler logo and any related assets are exclusive property and are protected under &copy; copyright law.  
+> Unauthorized use, reproduction, or distribution of the logo is prohibited.
 
 > [!IMPORTANT]
 > You can consult VirtHandler's End User License Agreement [here](https://iomega8561.github.io/VirtHandlerWiki/eula.html)
