@@ -73,8 +73,8 @@ Alternatively, you can download the latest release directly from our repository:
 The website hosted in this repository is distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 > [!CAUTION]
-> The VirtHandler logo and any related assets are exclusive property and are protected under &copy; copyright law.  
-> Unauthorized use, reproduction, or distribution of the logo is prohibited.
+> The VirtHandler logo, code and any related assets, are not covered under MIT and are protected under &copy; copyright law.  
+> Unauthorized use, reproduction, or distribution of the logo or any of the assets, is prohibited. VirtHandler is covered by its own EULA.
 
 > [!IMPORTANT]
 > You can consult VirtHandler's End User License Agreement [here](https://iomega8561.github.io/VirtHandlerWiki/eula.html)
