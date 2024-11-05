@@ -30,7 +30,7 @@ Tesseract is a cutting-edge virtual machine manager that redefines simplicity an
 - **Automate** routine tasks with powerful scripting capabilities.
 
 > [!TIP]
-> Discover more at [Tesseract's official website](https://iomega8561.github.io/TesseractProject/).
+> Discover more at [Tesseract's official website](https://tesseract.grocco.org).
 
 ## Technologies Used
 
