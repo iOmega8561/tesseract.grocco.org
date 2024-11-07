@@ -83,11 +83,11 @@ a {
 
 @media (prefers-color-scheme: dark) {
     #sequoia-vm {
-        content: url('./assets/sequoia-vm-dark.png');
+        content: url('../assets/sequoia-vm-dark.png');
     }
 
     #fedora-vm {
-        content: url('./assets/fedora-vm-dark.png');
+        content: url('../assets/fedora-vm-dark.png');
     }
 
     body {
