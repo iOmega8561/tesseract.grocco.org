@@ -9,6 +9,8 @@
 
   <p>Welcome to the official website repository for <strong>Tesseract</strong><br>Your gateway to seamless virtual machine management.</p>
 
+  <p>Download Tesseract <a href="https://apps.apple.com/app/tesseract/id6737772431">from the AppStore</a></p>
+
 </div>
 
 ## Table of Contents
@@ -16,7 +18,6 @@
 - [About Tesseract](#about-Tesseract)
 - [Technologies Used](#technologies-used)
 - [Minimum Requirements](#minimum-requirements)
-- [Getting Started](#getting-started)
 - [License](#license)
 - [Contact](#contact)
 
@@ -53,32 +54,14 @@ Tesseract is developed using the latest Apple technologies to provide a seamless
 - **Processor**: Apple Silicon (M1, M2, or newer)
 - **Operating System**: macOS Sonoma 14.0 or later
 
-## Getting Started
-
-Experience the power of Tesseract by downloading it today!
-
-> [!TIP]
-> Tesseract will soon be available on the **macOS App Store**
-
-### Download from Latest Release
-
-Alternatively, you can download the latest release directly from our repository:
-
-1. **Visit the [Latest Releases](https://github.com/iOmega8561/TesseractProject/releases/latest) page.**
-2. **Download the latest `.dmg` file compatible with your system.**
-3. **Open the downloaded file and follow the installation instructions**.
-
 ## License
 
 The website hosted in this repository is distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 > [!CAUTION]
 > The Tesseract logo, code and any related assets, are not covered under MIT and are protected under &copy; copyright law.  
-> Unauthorized use, reproduction, or distribution of the logo or any of the assets, is prohibited. Tesseract is covered by its own EULA.
-
-> [!IMPORTANT]
-> You can consult Tesseract's End User License Agreement [here](https://iomega8561.github.io/TesseractProject/eula.html)
+> Unauthorized use, reproduction, or distribution of the logo or any of the assets, is prohibited. Tesseract is covered by [its own EULA](https://tesseract.grocco.org/eula).
 
 ## Contact
 
-For any inquiries or feedback, please feel free to open issues using this repository.
+For any inquiries or feedback, please feel free to contact me at <a href="mailto:help@grocco.org">help@grocco.org</a>
