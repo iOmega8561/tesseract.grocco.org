@@ -60,7 +60,7 @@ The website hosted in this repository is distributed under the MIT License. See 
 
 > [!CAUTION]
 > The Tesseract logo, code and any related assets, are not covered under MIT and are protected under &copy; copyright law.  
-> Unauthorized use, reproduction, or distribution of the logo or any of the assets, is prohibited. Tesseract is covered by [its own EULA](https://tesseract.grocco.org/eula).
+> Unauthorized use, reproduction, or distribution of the logo or any of the assets, is prohibited.
 
 ## Contact
 
