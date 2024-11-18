@@ -12,9 +12,9 @@ function updateAssetsForTheme(theme) {
 const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
 window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
-    updateAssetsForTheme(event.matches ? 'dark' : 'light');
+    updateAssetsForTheme(event.matches ? 'dark-mode' : 'light-mode');
 });
 
 window.onload = function() {
-    updateAssetsForTheme(isDarkMode ? 'dark' : 'light');
+    updateAssetsForTheme(isDarkMode ? 'dark-mode' : 'light-mode');
 }
