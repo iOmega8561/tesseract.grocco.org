@@ -4,9 +4,8 @@ function updateAssetsForTheme(theme) {
 
     assets.forEach(asset => {
         const filename = asset.getAttribute('data-theme-asset');
-        const newPath = `../assets/${theme}/${filename}`;
+        const newPath = `./img/${theme}/${filename}`;
 
-        console.log(window.location.pathname)
         asset.setAttribute('src', newPath);
     });
 }
