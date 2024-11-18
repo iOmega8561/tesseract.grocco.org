@@ -1,7 +1,7 @@
 # The Tesseract Project
 
 <div align="center">
-  <img src="assets/appicon1024.png" width="200" height="200">
+  <img src="src/img/appicon1024.png" width="200" height="200">
 
   [![License](https://img.shields.io/github/license/iOmega8561/TesseractProject)](LICENSE)
   [![Issues](https://img.shields.io/github/issues/iOmega8561/TesseractProject)](https://github.com/yourusername/Tesseract-website/issues)
