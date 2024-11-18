@@ -1,3 +1,13 @@
+footer {
+    text-align: center;
+    padding: 1px;
+    background-color: #fff; /* Bianco per il footer */
+    color: #000;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    max-width: 100%;
+}
+
 .button {
     background-color: #007bff;
     color: white;
@@ -106,6 +116,11 @@
 }
 
 @media (prefers-color-scheme: dark) {
+
+    footer {
+        background-color: #201f1f; /* Bianco per il footer */
+        color: #fff;
+    }
 
     .button {
         background-color: #115195;
