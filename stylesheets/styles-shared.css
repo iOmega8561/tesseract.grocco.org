@@ -118,7 +118,7 @@ footer {
 @media (prefers-color-scheme: dark) {
 
     footer {
-        background-color: #201f1f; /* Bianco per il footer */
+        background-color: #201f1f;
         color: #fff;
     }
 
@@ -131,8 +131,8 @@ footer {
     }
 
     .card {
-        background-color: #201f1f; /* Dark background */
-        color: #ffffff; /* Dark text color */
+        background-color: #201f1f;
+        color: #ffffff;
     }
 
     .warning {
