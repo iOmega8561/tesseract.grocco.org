@@ -72,6 +72,14 @@ a {
 }
 
 @media (prefers-color-scheme: dark) {
+    #sequoia-vm {
+        content: url('../assets/dark-mode/sequoia-vm.png');
+    }
+
+    #fedora-vm {
+        content: url('../assets/dark-mode/fedora-vm.png');
+    }
+
     body {
         background: linear-gradient(to bottom, #182d40, #385f82, #66849c);
     }
