@@ -13,6 +13,26 @@
         "slogan-line2": "have never been so easy."
     },
 
+    "privacy": {
+        "title": "Privacy Policy",
+
+        "section1": {
+            "title": "DATA COLLECTION",
+            "content": "The Application does not collect, store, or transmit any personal data or user information.<br>No data is communicated to or from any remote servers except for this website, in order to get the latest information about operating systems.<br>Your use of the Application is entirely local to your device."
+        },
+
+        "section2": {
+            "title": "THIRD PARTY",
+            "content": "When Tesseract starts the installation process for macOS Virtual Machines, Apple servers may be contacted to initiate the procedure.<br>Apple may collect IP addresses of clients that use their APIs, please refer to",
+            "link": "their privacy policy"
+        },
+
+        "section3": {
+            "title": "UPDATES",
+            "content": "This page has been updated last on November 19th 2024."
+        }
+    },
+
     "shared": {
 
         "before-we-start": {
