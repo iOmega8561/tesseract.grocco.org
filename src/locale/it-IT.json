@@ -91,7 +91,7 @@
         "title": "Macchina Virtuale Linux",
 
         "before-we-start": {
-            "warning": "La maggior parte delle distribuzioni Linux forniscono immagini di installazione per processori Intel, etichettati con <strong>amd64</strong>.<br> Queste immagini non sono compatibili con Tesseract, perché il tuo Mac ha un processore Apple Silicon, che utilizza l'architettura <strong>arm64</strong>.<br>A patto che sia specifica per processori <strong>arm64/aarch64</strong>, qualsiasi distribuzione Linux è utilizzabile con Tesseract!"
+            "warning": "La maggior parte delle distribuzioni Linux fornisce immagini di installazione per processori Intel, etichettati con <strong>amd64</strong>.<br> Queste immagini non sono compatibili con Tesseract, perché il tuo Mac ha un processore Apple Silicon, che utilizza l'architettura <strong>arm64</strong>.<br>A patto che sia specifica per processori <strong>arm64/aarch64</strong>, qualsiasi distribuzione Linux è utilizzabile con Tesseract!"
         },
 
         "creation": {
@@ -102,7 +102,7 @@
         },
 
         "sidenote": {
-            "message": "Ogni distribuzione Linux disponibile fornisce il proprio programma di installazione, sfortunatamente Tesseract non può automatizzare il processo per te.<br>Tuttavia, non aver paura di provare a commettere errori, dopotutto è solo una macchina virtuale, puoi buttatelo via e ricominciate da capo!"
+            "message": "Ogni distribuzione Linux disponibile fornisce il proprio programma di installazione, sfortunatamente Tesseract non può automatizzare il processo per te.<br>Tuttavia, non aver paura di provare a commettere errori, dopotutto è solo una macchina virtuale, puoi distruggerla e ricominciare da capo!"
         },
 
         "advanced": {
@@ -126,7 +126,9 @@
                 "step1": "Per prima cosa, creaiamo un mountpoint temporaneo col seguente comando: ",
                 "step2": "Adesso montiamo il volume di Rosetta 2 con il seguente comando: ",
                 "step3": "Se tutto è andato per il verso giusto, questo comando restituirà diverse righe di output: ",
-                "step4": "Per concludere, installiamo Rosetta con il seguente comando:"
+                "step4": "Per concludere, installiamo Rosetta con il seguente comando:",
+                "failure": "In caso di necessità, per conoscere di più sull'utilizzo di Rosetta con Linux o per eventuali problemi, fare riferimento alla",
+                "failure-link": "documentazione di Apple"
             }
         }
     }

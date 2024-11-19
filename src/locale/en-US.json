@@ -128,7 +128,9 @@
                 "step1": "First, we want to create a new temporary mountpoint with the following: ",
                 "step2": "Now we mount Rosetta 2's volume directory with the following: ",
                 "step3": "Let's check if everything went well! This command should have some output",
-                "step4": "Next, we use this command to install Rosetta"
+                "step4": "Next, we use this command to install Rosetta",
+                "failure": "In case you need to know more about how to get started with Rosetta on a Linux Virtual Machine, please refere to",
+                "failure-link": "Apple developer documentation"
             }
         }
     }
