@@ -45,7 +45,19 @@
             "step5": "Seleziona il profilo prestazionale che preferisci",
             "step5-tip": "Questa impostazione ha effetto sulla velocità di esecuzione e altri fattori. E' consigliato lasciarla su <strong>Bilanciato</strong> se non si è sicuri di cosa fare!",
             "step5-info": "In caso di parametri personalizzati: a seconda del tipo di ambiente Linux desiderato, i requisiti minimi potrebbero cambiare drasticamente.<br>Per semplificarti le cose, i valori predefiniti di Tesseract sono personalizzati per dare abbastanza respiro per la maggior parte degli usi.<br>Inoltre, il tuo Mac fisico non rallenterà a causa di una quantità eccessiva di risorse allocate alla VM.",
-            "step6": "Seleziona le caratteristiche opzionali di cui la macchina virtuale deve disporre"
+            "step6": "Seleziona le caratteristiche opzionali di cui la macchina virtuale deve disporre",
+            "step6-info": "<strong>Tipo di rete:</strong> questa opzione consente di decidere se la macchina virtuale deve essere isolata in rete (Nessuno), connessa tramite NAT (Condivisa) o su una rete con bridge (Avanzata). Condivisa è consigliato agli utenti principianti.<br><strong>Abilita directory condivisa:</strong> questa opzione crea per te una cartella condivisa tra il tuo Mac e la tua macchina virtuale Linux, permettendoti di trasferire documenti e altri file facilitando il tuo lavoro. Per saperne di più su come utilizzare questa funzione continua a leggere!",
+            "step7": "Una volta terminata la configurazione, clicca su <strong>Conferma e Crea</strong>",
+            "step8": "Seleziona la tua nuova Macchina Virtuale dal menù sulla sinistra",
+            "step8-1": "Ora è possibile avviare la Macchina utilizzando il pulsante in alto"
+        },
+
+        "sidenote": {
+            "title": "Nota a margine sul processo",
+            "message": "Ogni distribuzione Linux disponibile fornisce il proprio programma di installazione, sfortunatamente Tesseract non può automatizzare il processo per te.<br>Tuttavia, non aver paura di provare a commettere errori, dopotutto è solo una macchina virtuale, puoi buttatelo via e ricominciate da capo!",
+            "advanced": "Raccomandazione per utenti esperti",
+            "advanced-message": "Per dare un'occhiata ai passaggi di configurazione più avanzati e sfruttare Rosetta 2, insieme alla directory condivisa, clicca su",
+            "advanced-link": "questo link"
         }
     }
 }
