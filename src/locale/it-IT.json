@@ -28,7 +28,7 @@
 
         "before-we-start": {
             "title": "Prima di iniziare",
-            "warning": "La maggior parte delle distribuzioni Linux forniscono immagini di installazione per processori Intel, etichettati con amd64. Queste immagini non sono compatibili con Tesseract, perché il tuo Mac ha un processore Apple Silicon, che utilizza l'architettura arm64. A patto che sia specifica per processori arm64/aarch64, qualsiasi distribuzione Linux è utilizzabile con Tesseract!"
+            "warning": "La maggior parte delle distribuzioni Linux forniscono immagini di installazione per processori Intel, etichettati con <strong>amd64</strong>.<br> Queste immagini non sono compatibili con Tesseract, perché il tuo Mac ha un processore Apple Silicon, che utilizza l'architettura <strong>arm64</strong>.<br>A patto che sia specifica per processori <strong>arm64/aarch64</strong>, qualsiasi distribuzione Linux è utilizzabile con Tesseract!"
         }
     }
 }
