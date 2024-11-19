@@ -18,7 +18,7 @@
 
         "section1": {
             "title": "RACCOLTA DATI",
-            "content": "L'Applicazione non colleziona, preserva o trasmette alcun genere di informazione personale o altresì dato.<br>Nessuna trasmissione viene effettuata da e per alcun server eccetto questo sito, in modo da ottenere le informazioni più recenti sulle immagini di installazione consigliate.<br>L'uso e il funzionamento dell'applicazione è totalmente locale e contenuto nel dispositivo."
+            "content": "L'Applicazione non colleziona, preserva o trasmette alcun genere di informazione personale o altresì dato.<br>Nessuna trasmissione viene effettuata da e per alcun server eccetto questo sito, in modo da ottenere le informazioni più recenti sulle immagini di installazione consigliate.<br>L'uso/funzionamento dell'applicazione è totalmente locale e contenuto nel dispositivo."
         },
 
         "section2": {
@@ -65,13 +65,13 @@
         "title": "Macchina Virtuale macOS",
 
         "before-we-start": {
-            "note": "A cause di una limitazione imposta da Apple, è possibile create molteplici macchine macOS, ma sono due per volta possono essere avviate.<br>Provando ad avviarne più di due, verrà mostrato il seguente errore."
+            "note": "A causa di una limitazione imposta da Apple, è possibile create molteplici macchine macOS, ma sono due per volta possono essere avviate.<br>Provando ad avviarne più di due, insieme, verrà mostrato il seguente errore."
         },
 
         "creation": {
-            "step2": "Sotto <strong>Sistema Operativo</strong>, selezione <strong>macOS</strong> come il sistema operativo da te scelto.",
+            "step2": "Sotto <strong>Sistema Operativo</strong>, seleziona <strong>macOS</strong> come il sistema operativo da te scelto.",
             "step3-1": "Se ancora non disponi di un file di ripristino .IPSW per macOS, puoi cliccare sul piccolo pulsante sinistro e scaricare uno dei consigliati.",
-            "step4": "Seleziona l'immagine di ripristino .IPSW scaricato in precedenza",
+            "step4": "Seleziona il file immagine di ripristino .IPSW scaricato in precedenza",
             "step5-info": "In caso di parametri personalizzati: macOS necessita di requisiti minimi che generalmente sono sempre più alti rispetto a Linux. Per un'esperienza ottimale Tesseract mostrerà avvisi, nel caso i parametri non rientrassero nella soglia si sicurezza."
         },
 
