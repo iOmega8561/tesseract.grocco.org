@@ -15,9 +15,9 @@
         "downloadURL": "https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/aarch64/iso/Fedora-KDE-Live-aarch64-41-1.4.iso"
     },
     {
-        "name": "Ubuntu Server 24.04",
+        "name": "Ubuntu Server 24.04.1",
         "logoURL": "https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png",
-        "downloadURL": "https://cdimage.ubuntu.com/releases/24.04/release/ubuntu-24.04-live-server-arm64.iso"
+        "downloadURL": "https://cdimage.ubuntu.com/releases/24.04/release/ubuntu-24.04.1-live-server-arm64.iso"
     },
     {
         "name": "Arch Linux (archboot)",
