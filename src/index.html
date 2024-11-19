@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/styles-shared.css">
     <link rel="icon" href="./img/appicon1024.png" type="image/png">
     <script src="./js/dynamic-asset-loader.js"></script>
+    <script src="./js/dynamic-locale-loader.js"></script>
 </head>
 <body class="hero-body">
 
@@ -19,8 +20,8 @@
         </div>
     
         <nav class="nav-bar">
-            <a href="./privacy.html" class="button">PRIVACY</a>
-            <a href="https://apps.apple.com/app/tesseract/id6737772431" class="button">DOWNLOAD</a>
+            <a data-localize="index.button-privacy" href="./privacy.html" class="button"></a>
+            <a data-localize="index.button-download" href="https://apps.apple.com/app/tesseract/id6737772431" class="button"></a>
         </nav>
     
     </header>
@@ -28,20 +29,20 @@
     <main>
 
         <div class="hero-text">
-            <h1>Virtual Machines</h1>
-            <h1>have never been so easy.</h1>
+            <h1 data-localize="index.slogan-line1"></h1>
+            <h1 data-localize="index.slogan-line2"></h1>
         </div>
 
         <div class="hero-horizontal">
 
             <div class="hero-horizontal-sub">
                 <img data-theme-asset="fedora-vm.png" class="hero-screenshot" alt="Linux">
-                <a href="./linux.html" class="button">GET STARTED WITH LINUX</a>
+                <a data-localize="index.button-linux" href="./linux.html" class="button"></a>
             </div>
 
             <div class="hero-horizontal-sub">
                 <img data-theme-asset="sequoia-vm.png" class="hero-screenshot" alt="macOS">
-                <a href="./macos.html" class="button">GET STARTED WITH MACOS</a>
+                <a data-localize="index.button-macos" href="./macos.html" class="button"></a>
             </div>
 
         </div>
@@ -49,7 +50,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2024 Giuseppe Rocco. All rights reserved.</p>
+        <p data-localize="copyright"></p>
     </footer>
 </body>
 </html>
