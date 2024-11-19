@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/styles-help.css">
     <link rel="stylesheet" href="./css/styles-shared.css">
     <link rel="icon" href="./img/appicon1024.png" type="image/png">
+    <script src="./js/dynamic-locale-loader.js"></script>
 </head>
 <body>
 
@@ -16,35 +17,34 @@
             <p class="text">Tesseract</p>
         </div>
     
-        <h2>Privacy Policy</h2>
+        <h2 data-localize="privacy.title"></h2>
     </header>
 
     <main>
         <section class="section">
-            <h2>PRIVACY AND DATA COLLECTION</h2>
+            <h2 data-localize="privacy.section1.title"></h2>
             <div class="card">
-                <p>The Application does not collect, store, or transmit any personal data or user information. No data is communicated to or from any remote servers. Your use of the Application is entirely local to your device.</p>
+                <p data-localize="privacy.section1.content"></p>
             </div>
         </section>
 
         <section class="section">
-            <h2>THIRD PARTY</h2>
+            <h2 data-localize="privacy.section2.title"></h2>
             <div class="card">
-                <p>When Tesseract starts the installation process for macOS Virtual Machines, Apple servers may be contacted to initiate the procedure.</p>
-                <p>Apple may collect IP addresses of clients that use their APIs, please refer to <a href="https://www.apple.com/legal/privacy">their privacy policy</a></p>
+                <p><span data-localize="privacy.section2.content"></span> <a data-localize="privacy.section2.link" href="https://www.apple.com/legal/privacy"></a></p>
             </div>
         </section>
 
         <section class="section">
-            <h2>UPDATES</h2>
+            <h2 data-localize="privacy.section3.title"></h2>
             <div class="card">
-                <p>This page has been updated last on Nov 7th 2024.</p>
+                <p data-localize="privacy.section3.content"></p>
             </div>
         </section>
     </main>
     
     <footer>
-        <p>&copy; 2024 Giuseppe Rocco. All rights reserved.</p>
+        <p data-localize="copyright"></p>
     </footer>
 </body>
 </html>

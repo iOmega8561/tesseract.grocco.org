@@ -13,6 +13,26 @@
         "slogan-line2": "mai state così semplici."
     },
 
+    "privacy": {
+        "title": "Privacy Policy",
+
+        "section1": {
+            "title": "RACCOLTA DATI",
+            "content": "L'Applicazione non colleziona, preserva o trasmette alcun genere di informazione personale o altresì dato.<br>Nessuna trasmissione viene effettuata da e per alcun server eccetto questo sito, in modo da ottenere le informazioni più recenti sulle immagini di installazione consigliate.<br>L'uso e il funzionamento dell'applicazione è totalmente locale e contenuto nel dispositivo."
+        },
+
+        "section2": {
+            "title": "TERZE PARTI",
+            "content": "Quando Tesseract avvia il processo di ripristino di macOS su una Macchina Virtuale, dei server di Apple potrebbero essere contattati per dare inizio alla procedura.<br>Apple potrebbe trattenere informazioni sugli indirizzi IP che contattano i propri server, a tal proposito riferirsi alla",
+            "link": "privacy policy di Apple"
+        },
+
+        "section3": {
+            "title": "AGGIORNAMENTI",
+            "content": "L'ultimo aggiornamento a queta pagina è stato effettuato in data 19 Novembre 2024"
+        }
+    },
+
     "shared": {
         "before-we-start": {
             "title": "Prima di iniziare"
