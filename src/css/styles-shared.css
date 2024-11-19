@@ -8,6 +8,16 @@ footer {
     max-width: 100%;
 }
 
+pre {
+    overflow-x: auto; /* Enables horizontal scrolling */
+    white-space: pre; /* Keeps the whitespace as-is */
+    max-width: 100%; /* Ensures the pre block doesn't exceed the container width */
+    border: 1px solid #ccc; /* Optional: Add a border for clarity */
+    padding: 10px; /* Optional: Add some padding */
+    background-color: #f8f8f8; /* Optional: Add a background color */
+  }
+  
+
 .button {
     background-color: #007bff;
     color: white;
