@@ -45,7 +45,16 @@
             "step5": "Select the desired performance preset",
             "step5-tip": "This settings affects execution speed and other factors. Leave it on <strong>Balanced</strong> if you are not sure!",
             "step5-info": "In case of custom parameters: Depending on what kind of Linux environment you want, the minimum requirements may change drastically.<br>To make things simple for you, Tesseract's default values are tailored to give enough breathing room for most use cases.<br>Also, your physical mac will not slow down due to having an excessive amount of resources allocated to the VM",
-            "step6": "Select the optional features to enable for your virtual machine"
+            "step6": "Select the optional features to enable for your virtual machine",
+            "step6-info": "<strong>Network type:</strong> This option let's you decide wether the virtual machine should be network isolated (None), connected using NAT (Shared) or on a bridged network (Advanced). Shared is recommended for beginner users.<br><strong>Enable shared directory:</strong> this option creates for you a folder that is shared between your mac and your Linux virtual machine, allowing you to transfer documents and other files facilitating your work. To know more on how to use this feature keep reading!",
+            "step7": "When you are satisfied with your options, click on <strong>Confirm and Create</strong>",
+            "step8": "Select your newly created virtual machine from the menu on your left",
+            "step8-1": "Now you can start it using the button in the top right corner"
+        },
+
+        "sidenote": {
+            "title": "A sidenote about the process",
+            "message": "Every Linux distribution out there provides their own installer, unfortunately Tesseract cannot automate the process for you.<br>However, don't be scared to try and make mistakes, after all it's just a virtual machine, you can scrap it and start from scratch!"
         }
     }
 }
