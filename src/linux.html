@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/styles-shared.css">
     <link rel="icon" href="./img/appicon1024.png" type="image/png">
     <script src="./js/dynamic-asset-loader.js"></script>
+    <script src="./js/dynamic-locale-loader.js"></script>
 </head>
 <body>
     <header>
@@ -16,16 +17,17 @@
             <p class="text">Tesseract</p>
         </div>
     
-        <h2>Linux Virtual Machine</h2>
+        <h2 data-localize="linux.title"></h2>
     </header>
     
     <main>
         <section class="section">
-            <h1>Before we start</h1>
+            <h1 data-localize="linux.before-we-start.title"></h1>
             <div class="card">
-
                 
-                <div class="warning"><strong>WARNING:</strong> Most Linux distributions provide installation images for Intel processors, labeled with "amd64". These images are not compatible with Tesseract, because your mac has an Apple Silicon processor, that uses the ARM64 architecture.</div>
+                <div class="warning">
+                    <strong data-localize="warning"></strong> <span data-localize="linux.before-we-start.warning"></span>
+                </div>
 
                 <div align="center">
                     <img src="./img/compatible.png" width="400" alt="Compatible"/>
@@ -33,7 +35,7 @@
                 </div>
 
                 <blockquote>
-                    <p>As long as it is compatible with <strong>ARM64</strong> processors, you may use any Linux distribution of your choice. Tesseract offers a choice of recommended Linux images, more on that below.</p>
+                    <p data-localize="linux.before-we-start.message"></p>
                 </blockquote>
             </div>
         </section>
