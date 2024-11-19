@@ -1,5 +1,10 @@
 {
     "copyright": "©️ 2024 Giuseppe Rocco. Tutti i diritti riservati.",
+
+    "important": "IMPORTANTE",
+
+    "warning": "ATTENZIONE",
+
     "index": {
         "button-privacy": "PRIVACY",
         "button-download": "SCARICA",
@@ -7,5 +12,23 @@
         "button-macos": "INIZIA CON MACOS",
         "slogan-line1": "Macchine Virtuali",
         "slogan-line2": "mai state così semplici."
+    },
+
+    "macos": {
+        "title": "Macchina Virtuale macOS",
+
+        "before-we-start": {
+            "title": "Prima di iniziare",
+            "note": "A cause di una limitazione imposta da Apple, è possibile create molteplici macchine macOS, ma sono due per volta possono essere avviate. Provando ad avviarne più di due, verrà mostrato il seguente errore."
+        }
+    },
+
+    "linux": {
+        "title": "Macchina Virtuale Linux",
+
+        "before-we-start": {
+            "title": "Prima di iniziare",
+            "warning": "La maggior parte delle distribuzioni Linux forniscono immagini di installazione per processori Intel, etichettati con amd64. Queste immagini non sono compatibili con Tesseract, perché il tuo Mac ha un processore Apple Silicon, che utilizza l'architettura arm64. A patto che sia specifica per processori arm64/aarch64, qualsiasi distribuzione Linux è utilizzabile con Tesseract!"
+        }
     }
 }

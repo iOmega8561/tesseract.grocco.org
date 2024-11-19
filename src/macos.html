@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/styles-shared.css">
     <link rel="icon" href="./img/appicon1024.png" type="image/png">
     <script src="./js/dynamic-asset-loader.js"></script>
+    <script src="./js/dynamic-locale-loader.js"></script>
 </head>
 <body>
     <header>
@@ -16,28 +17,21 @@
             <p class="text">Tesseract</p>
         </div>
     
-        <h2>macOS Virtual Machine</h2>
+        <h2 data-localize="macos.title"></h2>
     </header>
     
     <main>
         <section class="section">
-            <h1>Before you start</h1>
+            <h1 data-localize="macos.before-we-start.title"></h1>
             <div class="card">
                 
-                <div class="note"><strong>IMPORTANT</strong> Unfortunately due to a limitation imposed by Apple, you can create as many macOS VMs as you want, but you can only start two at any given time. If you try to start more than two macOS virtual machines, you will be greeted by one of these errors below:</div>
+                <div class="note">
+                    <strong data-localize="important"></strong> <span data-localize="macos.before-we-start.note"></span>
+                </div>
                 
                 <div align="center">
                     <img data-theme-asset="toomanymac.png" width="300" alt="Too Many Macs Error"/>
-                    <img src="./img/installfailed.png" width="400" alt="Install Failed Error"/>
                 </div>
-            </div>
-        </section>
-
-        <section class="section">
-            <h1>Acquiring a macOS restore image</h1>
-            <div class="card">
-                
-                <div class="note"><strong>IMPORTANT:</strong> In order to install macOS on your shiny new virtual machine, you need a macOS recovery image. You can find them on the internet. Don't worry if you don't know where to look for, because we got you covered. Follow the instructions below!</div>
             </div>
         </section>
 

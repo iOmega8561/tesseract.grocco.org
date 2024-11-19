@@ -1,5 +1,10 @@
 {
     "copyright": "©️ 2024 Giuseppe Rocco. All rights reserved.",
+
+    "important": "IMPORTANT",
+
+    "warning": "WARNING",
+
     "index": {
         "button-privacy": "PRIVACY",
         "button-download": "DOWNLOAD",
@@ -7,5 +12,23 @@
         "button-macos": "GET STARTED WITH MACOS",
         "slogan-line1": "Virtual Machines",
         "slogan-line2": "have never been so easy."
+    },
+
+    "macos": {
+        "title": "macOS Virtual Machine",
+
+        "before-we-start": {
+            "title": "Before we start",
+            "note": "Due to a limitation imposed by Apple, you can create as many macOS VMs as you want, but you can only start two at any given time. If you try to start more than two macOS virtual machines, you will be greeted by the following error."
+        }
+    },
+
+    "linux": {
+        "title": "Linux Virtual Machine",
+
+        "before-we-start": {
+            "title": "Before we start",
+            "warning": "Most Linux distributions provide installation images for Intel processors, labeled with amd64. These images are not compatible with Tesseract, because your mac has an Apple Silicon processor, that uses the ARM64 architecture. As long as it is compatible with arm64 (also called aarch64) processors, you may use any Linux distribution!"
+        }
     }
 }
