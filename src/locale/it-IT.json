@@ -1,5 +1,5 @@
 {
-    "copyright": "©️ 2024 Giuseppe Rocco. Tutti i diritti riservati.",
+    "copyright": "&copy; 2024 Giuseppe Rocco. Tutti i diritti riservati.",
 
     "important": "IMPORTANTE",
 
@@ -21,7 +21,7 @@
 
         "before-we-start": {
             "title": "Prima di iniziare",
-            "note": "A cause di una limitazione imposta da Apple, è possibile create molteplici macchine macOS, ma sono due per volta possono essere avviate. Provando ad avviarne più di due, verrà mostrato il seguente errore."
+            "note": "A cause di una limitazione imposta da Apple, è possibile create molteplici macchine macOS, ma sono due per volta possono essere avviate.<br>Provando ad avviarne più di due, verrà mostrato il seguente errore."
         },
 
         "creation": {
@@ -48,6 +48,11 @@
             "step2": "Quando viene mostrato l'avviso, clicca su <strong>Conferma</strong>",
             "step3": "Il processo di ripristino inizierà, potrebbe richiedere del tempo.",
             "step4": "Una volta raggiunto il 100%, la macchina virtuale si spegnerà in automatico. La prossima volta basterà solo avviarla!"
+        },
+
+        "sidenote": {
+            "title": "Nota a margine sul processo",
+            "message": "Non buttare via i tuoi file .IPSW! Tesseract ne ha bisogno per inizializzare la tua macchina virtuale ad ogni avvio. Se il file originale viene eliminato o spostato, la macchina virtuale segnalerà un errore di configurazione. Non preoccuparti, puoi utilizzare un altro file: seleziona la tua VM dal menu principale e fai clic sul supporto di installazione per selezionarne uno nuovo."
         }
     },
 
