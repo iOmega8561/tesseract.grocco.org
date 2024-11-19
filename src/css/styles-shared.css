@@ -9,14 +9,13 @@ footer {
 }
 
 pre {
-    overflow-x: auto; /* Enables horizontal scrolling */
-    white-space: pre; /* Keeps the whitespace as-is */
-    max-width: 100%; /* Ensures the pre block doesn't exceed the container width */
-    border: 1px solid #ccc; /* Optional: Add a border for clarity */
-    padding: 10px; /* Optional: Add some padding */
-    background-color: #f8f8f8; /* Optional: Add a background color */
-  }
-  
+    margin: auto;
+    overflow-x: auto;
+    white-space: nowrap;
+    max-width: fit-content;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
 
 .button {
     background-color: #007bff;

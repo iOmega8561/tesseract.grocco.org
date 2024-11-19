@@ -88,9 +88,28 @@
         },    
             
         "advanced": {
-            "title": "Recommendation for advanced users",
-            "intro": "To take a look at more advanced configuration steps and take advantage of Rosetta 2, along with the shared directory, click on",
-            "link": "this link"
+            "title": "Configurazione Avanzata per Linux",
+            "recommendation": "Recommendation for advanced users",
+            "introduction": "To take a look at more advanced configuration steps and take advantage of Rosetta 2, along with the shared directory, click on",
+            "link-label": "this link",
+            
+            "directory": {
+                "title": "Access the shared directory",
+                "info": "On Linux unfortunately it is required to perform a couple of steps before using the shared directory that Tesseract set up for you earlier. It is definitely not a hard process I would say, let's go through it together!",
+                "step1": "Open a terminal prompt and execute the following command tocreate a new directory, replacing <strong>MyCustomDirName</strong> with the name you want for this new folder",
+                "step2": "Input the following command to mount the volume, replacing <strong>MyCustomDirName</strong> with the name you chose for the folder that has been just created.",
+                "success": "And that's it, now you can access <strong>MyCustomDirName</strong> and share content with your mac operating system!"
+            },
+
+            "rosetta": {
+                "title": "How to use Rosetta 2",
+                "intro": "Rosetta 2 is enabled by default on every Linux virtual machine created with Tesseract, but unfortunately it takes some more steps to get it configured and functional.<br>Don't worry though, we'll go through it together!",
+                "warning": "This procedure requires the <strong>update-binfmts</strong> command. The installation will not be the same depending on the Linux distribution you choose. It is highly recommended to use Debian Linux for this. To install update-binfmts use this command: <strong>sudo apt install update-binfmts</strong>",
+                "step1": "First, we want to create a new temporary mountpoint with the following: ",
+                "step2": "Now we mount Rosetta 2's volume directory with the following: ",
+                "step3": "Let's check if everything went well! This command should have some output",
+                "step4": "Next, we use this command to install Rosetta"
+            }
         }
     }
 }

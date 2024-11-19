@@ -86,9 +86,28 @@
         },
 
         "advanced": {
-            "title": "Raccomandazione per utenti esperti",
-            "intro": "Per dare un'occhiata ai passaggi di configurazione più avanzati e sfruttare Rosetta 2, insieme alla directory condivisa, clicca su",
-            "link": "questo link"
+            "title": "Configurazione Avanzata per Linux",
+            "recommendation": "Raccomandazione per utenti esperti",
+            "introduction": "Per dare un'occhiata ai passaggi di configurazione più avanzati e sfruttare Rosetta 2, insieme alla directory condivisa, clicca su",
+            "link-label": "questo link",
+            
+            "directory": {
+                "title": "Accesso alla cartella condivisa",
+                "info": "Su Linux, sfortunatamente, è necessario eseguire un paio di passaggi prima di poter accedere alla directory condivisa che Tesseract ha configurato in precedenza. Non è sicuramente un processo difficile, esaminiamolo insieme!",
+                "step1": "Apri una nuova finestra di terminale ed esegui il seguente comando per creare una nuova cartella, rimpiazzando <strong>MyCustomDirName</strong> con il nome che vuoi assegnare alla nuova cartella.",
+                "step2": "Esegui il seguente comando per montare il volume, facendo attenzione a rimpiazzare <strong>MyCustomDirName</strong> col nome della cartella appena creata.",
+                "success": "Questo è tutto, avendo eseguito tutto correttamente ora sarà possibile accedere alla cartella per condividere i file con il tuo Mac."
+            },
+
+            "rosetta": {
+                "title": "Come utilizzare Rosetta 2",
+                "intro": "Come impostazione predefinita, Rosetta 2 è abilitato su tutte le macchine virtuali create con Tessereact, ma per sfruttare questa funzionalità è necessario eseguire una serie di step.<br>Non temere, è tutto spiegato quì!",
+                "warning": "Per questa procedura è necessario il comando <strong>update-binfmts</strong>. Sfortunatamente il processo di installazione di questo comando/eseguibile è diverso per ogni distribuzione Linux.<br>Si raccomanda di utilizzare Debian Linux. Per l'installazione va eseguito il comando <strong>sudo apt install update-binfmts</strong>",
+                "step1": "Per prima cosa, creaiamo un mountpoint temporaneo col seguente comando: ",
+                "step2": "Adesso montiamo il volume di Rosetta 2 con il seguente comando: ",
+                "step3": "Se tutto è andato per il verso giusto, questo comando restituirà diverse righe di output: ",
+                "step4": "Per concludere, installiamo Rosetta con il seguente comando:"
+            }
         }
     }
 }
