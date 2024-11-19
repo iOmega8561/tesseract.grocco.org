@@ -1,0 +1,137 @@
+{
+    "copyright": "&copy; 2024 Giuseppe Rocco. All rights reserved.",
+    "important": "IMPORTANT",
+    "warning": "WARNING",
+    "tip": "TIP",
+
+    "index": {
+        "button-privacy": "PRIVACY",
+        "button-download": "DOWNLOAD",
+        "button-linux": "GET STARTED WITH LINUX",
+        "button-macos": "GET STARTED WITH MACOS",
+        "slogan-line1": "Virtual Machines",
+        "slogan-line2": "have never been so easy."
+    },
+
+    "privacy": {
+        "title": "Privacy Policy",
+
+        "section1": {
+            "title": "DATA COLLECTION",
+            "content": "The Application does not collect, store, or transmit any personal data or user information.<br>No data is communicated to or from any remote servers except for this website, in order to get the latest information about operating systems.<br>Your use of the Application is entirely local to your device."
+        },
+
+        "section2": {
+            "title": "THIRD PARTY",
+            "content": "When Tesseract starts the installation process for macOS Virtual Machines, Apple servers may be contacted to initiate the procedure.<br>Apple may collect IP addresses of clients that use their APIs, please refer to",
+            "link": "their privacy policy"
+        },
+
+        "section3": {
+            "title": "UPDATES",
+            "content": "This page has been updated last on November 19th 2024."
+        }
+    },
+
+    "shared": {
+
+        "before-we-start": {
+            "title": "Before we start"
+        },
+
+        "creation": {
+            "title": "Creation of the Virtual Machine",
+            "step1": "Start Tesseract, and click on <strong>Create a new Virtual Machine</strong>",
+            "step3": "Under <strong>Installation Media</strong>, you will be presented with two options:",
+            "step3-1-tip": "After clicking on the download button, your browser will open and the download will start. Wait for it to finish before continuing!",
+            "step3-2": "If you already have one or you just downloaded from the previous step, click on <strong>+ Pick a file</strong> to open the Finder file picker",
+            "step5": "Select the desired performance preset",
+            "step5-tip": "This settings affects execution speed and other factors. Leave it on <strong>Balanced</strong> if you are not sure!",
+            "step6": "Select the optional features to enable for your virtual machine",
+            "step6-info": "<strong>Network type:</strong> This option let's you decide wether the virtual machine should be network isolated (None), connected using NAT (Shared) or on a bridged network (Advanced). Shared is recommended for beginner users.<br><strong>Enable shared directory:</strong> this option creates for you a folder that is shared between your mac and your Linux virtual machine, allowing you to transfer documents and other files facilitating your work. To know more on how to use this feature keep reading!",
+            "step7": "When you are satisfied with your options, click on <strong>Confirm and Create</strong>"
+        },
+
+        "setup": {
+            "step1": "Select your newly created virtual machine from the menu on your left",
+            "step1-1": "Now you can start it using the button in the top right corner"
+        },
+
+        "sidenote": {
+            "title": "A sidenote about the process"
+        }
+    },
+
+    "macos": {
+        "title": "macOS Virtual Machine",
+
+        "before-we-start": {
+            "note": "Due to a limitation imposed by Apple, you can create as many macOS VMs as you want, but you can only start two at any given time.<br>If you try to start more than two macOS virtual machines, you will be greeted by the following error."
+        },
+
+        "creation": {
+            "step2": "Under <strong>Operating System</strong>, select <strong>macOS</strong> as the operating system of your choice",
+            "step3-1": "If you don't have a macOS .IPSW file yet, you can click on the left small button and choose your favourite to download.",
+            "step4": "Select the previously downloaded .IPSW recovery image",
+            "step5-info": "In case of custom parameters: macOS generally demands higher minimum requirements than Linux. To ensure an optimal experience, Tesseract will show warning if the parameters don't meet the minimum target."
+        },
+
+        "setup": {
+            "title": "macOS Installation Process",
+            "step2": "Select <strong>Confirm</strong> when the alert dialog pops up",
+            "step3": "The installation process will start, don't worry if it takes time!",
+            "step4": "When the installation reaches 100%, the Virtual Machine shuts off automatically. Next time just start it and enjoy!"
+        },
+
+        "sidenote": {
+            "message": "Don't throw away your .IPSW files! Tesseract needs them to initialize your virtual machine at every startup. If the original file is deleted, or moved, the virtual machine will report a configuration error. Don't worry, you can always use another file: select your VM from the main menu and click on the installation media to select a new one."
+        }
+    },
+
+    "linux": {
+        "title": "Linux Virtual Machine",
+
+        "before-we-start": {
+            "title": "Before we start",
+            "warning": "Most Linux distributions provide installation images for Intel processors, labeled with <strong>amd64</strong>.<br>These images are not compatible with Tesseract, because your mac has an Apple Silicon processor, that uses the <strong>arm64</strong> architecture.<br>As long as it is compatible with <strong>arm64/aarch64</strong> processors, you may use any Linux distribution!"
+        },
+
+        "creation": {
+            "step2": "Under <strong>Operating System</strong>, select <strong>Linux</strong> as the operating system of your choice",
+            "step3-1": "If you don't have a Linux .ISO file yet, you can click on the left small button and choose your favourite to download.",
+            "step4": "Select the previously downloaded .ISO image file",
+            "step5-info": "In case of custom parameters: Depending on what kind of Linux environment you want, the minimum requirements may change drastically.<br>To make things simple for you, Tesseract's default values are tailored to give enough breathing room for most use cases.<br>Also, your physical mac will not slow down due to having an excessive amount of resources allocated to the VM"
+        },
+
+        "sidenote": {
+            "message": "Every Linux distribution out there provides their own installer, unfortunately Tesseract cannot automate the process for you.<br>However, don't be scared to try and make mistakes, after all it's just a virtual machine, you can scrap it and start from scratch!"
+        },    
+            
+        "advanced": {
+            "title": "Configurazione Avanzata per Linux",
+            "recommendation": "Recommendation for advanced users",
+            "introduction": "To take a look at more advanced configuration steps and take advantage of Rosetta 2, along with the shared directory, click on",
+            "link-label": "this link",
+            
+            "directory": {
+                "title": "Access the shared directory",
+                "info": "On Linux unfortunately it is required to perform a couple of steps before using the shared directory that Tesseract set up for you earlier. It is definitely not a hard process I would say, let's go through it together!",
+                "step1": "Open a terminal prompt and execute the following command tocreate a new directory, replacing <strong>MyCustomDirName</strong> with the name you want for this new folder",
+                "step2": "Input the following command to mount the volume, replacing <strong>MyCustomDirName</strong> with the name you chose for the folder that has been just created.",
+                "success": "And that's it, now you can access <strong>MyCustomDirName</strong> and share content with your mac operating system!"
+            },
+
+            "rosetta": {
+                "title": "How to use Rosetta 2",
+                "intro": "Rosetta 2 is enabled by default on every Linux virtual machine created with Tesseract, but unfortunately it takes some more steps to get it configured and functional.<br>Don't worry though, we'll go through it together!",
+                "warning": "This procedure requires the <strong>update-binfmts</strong> command. The installation will not be the same depending on the Linux distribution you choose. It is highly recommended to use Debian Linux for this. To install update-binfmts use this command: <strong>sudo apt install update-binfmts</strong>",
+                "step1": "First, we want to create a new temporary mountpoint with the following: ",
+                "step2": "Now we mount Rosetta 2's volume directory with the following: ",
+                "step3": "Let's check if everything went well! This command should have some output",
+                "step4": "Next, we use this command to install Rosetta",
+                "failure": "In case you need to know more about how to get started with Rosetta on a Linux Virtual Machine, please refere to",
+                "failure-link": "Apple developer documentation"
+            }
+        }
+    }
+}
