@@ -1,5 +1,5 @@
 {
-    "copyright": "©️ 2024 Giuseppe Rocco. All rights reserved.",
+    "copyright": "&copy; 2024 Giuseppe Rocco. All rights reserved.",
 
     "important": "IMPORTANT",
 
@@ -21,7 +21,7 @@
 
         "before-we-start": {
             "title": "Before we start",
-            "note": "Due to a limitation imposed by Apple, you can create as many macOS VMs as you want, but you can only start two at any given time. If you try to start more than two macOS virtual machines, you will be greeted by the following error."
+            "note": "Due to a limitation imposed by Apple, you can create as many macOS VMs as you want, but you can only start two at any given time.<br>If you try to start more than two macOS virtual machines, you will be greeted by the following error."
         },
 
         "creation": {
@@ -48,6 +48,11 @@
             "step2": "Select <strong>Confirm</strong> when the alert dialog pops up",
             "step3": "The installation process will start, don't worry if it takes time!",
             "step4": "When the installation reaches 100%, the Virtual Machine shuts off automatically. Next time just start it and enjoy!"
+        },
+
+        "sidenote": {
+            "title": "A sidenote about the process",
+            "message": "Don't throw away your .IPSW files! Tesseract needs them to initialize your virtual machine at every startup. If the original file is deleted, or moved, the virtual machine will report a configuration error. Don't worry, you can always use another file: select your VM from the main menu and click on the installation media to select a new one."
         }
     },
 
