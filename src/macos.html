@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/styles-shared.css">
     <link rel="icon" href="./img/appicon1024.png" type="image/png">
     <script src="./js/dynamic-asset-loader.js"></script>
+    <script src="./js/dynamic-locale-loader.js"></script>
 </head>
 <body>
     <header>
@@ -16,132 +17,147 @@
             <p class="text">Tesseract</p>
         </div>
     
-        <h2>macOS Virtual Machine</h2>
+        <h2 data-localize="macos.title"></h2>
     </header>
     
     <main>
         <section class="section">
-            <h1>Before you start</h1>
+            <h1 data-localize="shared.before-we-start.title"></h1>
             <div class="card">
                 
-                <div class="note"><strong>IMPORTANT</strong> Unfortunately due to a limitation imposed by Apple, you can create as many macOS VMs as you want, but you can only start two at any given time. If you try to start more than two macOS virtual machines, you will be greeted by one of these errors below:</div>
+                <div class="note">
+                    <strong data-localize="important"></strong> <span data-localize="macos.before-we-start.note"></span>
+                </div>
                 
                 <div align="center">
                     <img data-theme-asset="toomanymac.png" width="300" alt="Too Many Macs Error"/>
-                    <img src="./img/installfailed.png" width="400" alt="Install Failed Error"/>
                 </div>
             </div>
         </section>
 
         <section class="section">
-            <h1>Acquiring a macOS restore image</h1>
-            <div class="card">
-                
-                <div class="note"><strong>IMPORTANT:</strong> In order to install macOS on your shiny new virtual machine, you need a macOS recovery image. You can find them on the internet. Don't worry if you don't know where to look for, because we got you covered. Follow the instructions below!</div>
-            </div>
-        </section>
-
-        <section class="section">
-            <h1>Creation of the virtual machine</h1>
+            <h1 data-localize="shared.creation.title"></h1>
             <div class="card">
                 <ol>
-                    <li>Start Tesseract, and click on "<strong>+ Create a new Virtual Machine</strong>"
-                        <div align="center">
-                            <img data-theme-asset="createnew.png" width="200" alt="Create New VM"/>
-                        </div>
-                    </li>
-                    <li>Under "Operating System", select <strong>macOS</strong> as the operating system of your choice
-                        <div align="center">
-                            <img data-theme-asset="oschoice.png" width="400" alt="Select macOS"/>
-                        </div>
-                    </li>
-                    <li>Under "Installation Media", you will be presented with two options.
-                        <div align="center">
-                            <img data-theme-asset="pickafile-ipsw.png" width="400" alt="Pick a File"/>
-                        </div>
-                        <ul>
-                            <li>If you don't have a macOS Recovery .IPSW file yet, you can click on the left small button and choose your favourite to download.</li>
-                            <div align="center">
-                                <img data-theme-asset="download-ipsw.png" width="300" alt="Pick a File"/>
-                            </div>
+                    <li data-localize="shared.creation.step1"></li>
+            
+                    <div align="center">
+                        <img data-theme-asset="createnew.png" width="200" alt="Create New VM"/>
+                    </div>
+                    
+                    <li data-localize="macos.creation.step2"></li>
+            
+                    <div align="center">
+                        <img data-theme-asset="oschoice.png" width="400" alt="Select macOS"/>
+                    </div>
 
-                            <div>After clicking on the download button, your browser will open and the download will start. Wait for it to finish before continuing!</div>
-                            <div align="center">
-                                <img src="./img/downloading-iso.png" width="400" alt="Downloading IPSW"/>
-                            </div>
+                    <li data-localize="shared.creation.step3"></li>
+                        
+                    <div align="center">
+                        <img data-theme-asset="pickafile-ipsw.png" width="400" alt="Pick a File"/>
+                    </div>
+            
+                    <ul>
+                        <li data-localize="macos.creation.step3-1"></li>
+                    
+                        <div align="center">
+                            <img data-theme-asset="download-ipsw.png" width="300" alt="Pick a File"/>
+                        </div>
+                    </ul>
 
-                            <li>If you already have one or you just downloaded a .IPSW file, click on "<strong>+ Pick a file</strong>" to open the Finder file picker</li>
-                            <div align="center">
-                                <img data-theme-asset="pickafile-button.png" width="150" alt="Pick a File"/>
-                            </div>
-                        </ul>
-                    </li>
-                    <li>Select the .IPSW image you just downloaded
-                        <div align="center">
-                            <img data-theme-asset="pickafile-ipsw-picker.png" width="600" alt="Select IPSW Image"/>
-                        </div>
-                    </li>
-                    <li>Select the Performance profile that you prefer
+                    <div class="tip">
+                        <strong data-localize="tip"></strong><span data-localize="shared.creation.step3-1-tip"></span>
+                    </div>
                         
-                        <div class="tip"><strong>TIP:</strong> Leave this setting on "Balanced" if you are not sure!</div>
+                    <div align="center">
+                        <img src="./img/downloading-ipsw.png" width="400" alt="Downloading IPSW"/>
+                    </div>
+                    
+                    <ul>
+                        <li data-localize="shared.creation.step3-2"></li>
+        
+                        <div align="center">
+                            <img data-theme-asset="pickafile-button.png" width="150" alt="Pick a File"/>
+                        </div>
+                    </ul>
+                    
+                    <li data-localize="macos.creation.step4"></li>
+            
+                    <div align="center">
+                        <img data-theme-asset="pickafile-ipsw-picker.png" width="600" alt="Select IPSW Image"/>
+                    </div>
+
+                    <li data-localize="shared.creation.step5"></li>
                         
-                        <div align="center">
-                            <img data-theme-asset="presets-mac.png" width="400" alt="Select Performance Profile"/>
-                        </div>
-                    </li>
-                    <li>In case of custom parameters: Tesseract will notify you if the specifications you set don't meet the minimum requirements
-                        <div align="center">
-                            <img data-theme-asset="warning.png" width="400" alt="Warning for Parameters"/>
-                        </div>
-                    </li>
-                    <li>Select the optional features to enable for your virtual machine
+                    <div class="tip">
+                        <strong data-localize="tip"></strong><span data-localize="shared.creation.step5-tip"></span>
+                    </div>
                         
-                        <div class="note"><strong>NOTE:</strong>"Enable shared directory" option creates for you a folder that is shared between your physical mac and your macOS virtual machine, allowing you to transfer documents and other files facilitating your work. This feature is supported on guest systems starting from macOS Ventura (13.0+)</div>
+                    <div align="center">
+                        <img data-theme-asset="presets-mac.png" width="400" alt="Select Performance Profile"/>
+                    </div>
+                    
+                    <div class="note">
+                        <strong data-localize="important"></strong><span data-localize="macos.creation.step5-info"></span>
+                    </div>
+
+                    <div align="center">
+                        <img data-theme-asset="warning.png" width="400" alt="Warning for Parameters"/>
+                    </div>
+                
+                    <li data-localize="shared.creation.step6"></li>
                         
-                        <div align="center">
-                            <img data-theme-asset="optionalfeatures.png" width="400" alt="Optional Features"/>
-                        </div>
-                    </li>
-                    <li>When you are satisfied with your options, click on <strong>Confirm and Create</strong>
-                        <div align="center">
-                            <img data-theme-asset="confirmandcreate.png" width="200" alt="Confirm and Create"/>
-                        </div>
-                    </li>
+                    <div class="note">
+                        <strong data-localize="important"></strong><span data-localize="shared.creation.step6-info"></span>
+                    </div>
+                        
+                    <div align="center">
+                        <img data-theme-asset="optionalfeatures.png" width="400" alt="Optional Features"/>
+                    </div>
+                    
+                    <li data-localize="shared.creation.step7"></li>
+            
+                    <div align="center">
+                        <img data-theme-asset="confirmandcreate.png" width="200" alt="Confirm and Create"/>
+                    </div>
+                
                 </ol>
             </div>
         </section>
 
         <section class="section">
-            <h1>macOS Installation Process</h1>
+            <h1 data-localize="macos.setup.title"></h1>
             <div class="card">
-                <p>Select your newly created virtual machine from the menu on your left. You will see that the start button in the top right corner is locked.</p>
+                <p data-localize="shared.setup.step1"></p>
+                
                 <ol>
-                    <li>Click on the little <strong>Play button</strong> in the top right corner to start the VM
-                        <div align="center">
-                            <img data-theme-asset="playbutton.png" width="400" alt="Play Button"/>
-                        </div>
-                    </li>
-                    <li>Select "<strong>Confirm</strong>" when the alert dialog pops up
+                    <li data-localize="shared.setup.step1-1"></li>
+        
+                    <div align="center">
+                        <img data-theme-asset="playbutton.png" width="400" alt="Play Button"/>
+                    </div>
+                    
+                    <li data-localize="macos.setup.step2"></li>
                         <div align="center">
                             <img data-theme-asset="installalert.png" width="200" alt="Data Loss Alert"/>
                         </div>
                     </li>
-                    <li>The installation process will start, don't worry if it takes time!
-                        <p>(Optional) While the installation process finishes, you can drink a cup of coffee or stretch your legs a bit.</p>
-                        <div align="center">
-                            <img data-theme-asset="restoring.png" width="250" alt="Installation Process"/>
-                        </div>
-                    </li>
+            
+                    <li data-localize="macos.setup.step3"></li>
+            
+                    <div align="center">
+                        <img data-theme-asset="restoring.png" width="250" alt="Installation Process"/>
+                    </div>
                 </ol>
-                <p>When the installation reaches 100%, the Virtual Machine shuts off automatically. Next time just start it and enjoy!</p>
+                <p data-localize="macos.setup.step4"></p>
             </div>
         </section>
 
         <section class="section">
-            <h1>A sidenote on this procedure</h1>
+            <h1 data-localize="shared.sidenote.title"></h1>
             <div class="card">
-                <p>Don't throw away your .IPSW files! Tesseract needs them to initialize your virtual machine every time you start the application. If the original file is deleted, or moved, the virtual machine will report a configuration error.</p>
-                <p>Don't worry, you can always tell Tesseract to use another file: select your VM from the main menu and click on the installation media to select a new one.</p>
+                <p data-localize="macos.sidenote.message"></p>
+                
                 <div align="center">
                     <img data-theme-asset="installmedia.png" width="700" alt="Select Installation Media"/>
                 </div>
@@ -150,7 +166,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2024 Giuseppe Rocco. All rights reserved.</p>
+        <p data-localize="copyright"></p>
     </footer>
 </body>
 </html>

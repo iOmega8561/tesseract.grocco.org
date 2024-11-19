@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/styles-shared.css">
     <link rel="icon" href="./img/appicon1024.png" type="image/png">
     <script src="./js/dynamic-asset-loader.js"></script>
+    <script src="./js/dynamic-locale-loader.js"></script>
 </head>
 <body>
     <header>
@@ -16,120 +17,136 @@
             <p class="text">Tesseract</p>
         </div>
     
-        <h2>Linux Virtual Machine</h2>
+        <h2 data-localize="linux.title"></h2>
     </header>
     
     <main>
         <section class="section">
-            <h1>Before we start</h1>
+            <h1 data-localize="shared.before-we-start.title"></h1>
             <div class="card">
-
                 
-                <div class="warning"><strong>WARNING:</strong> Most Linux distributions provide installation images for Intel processors, labeled with "amd64". These images are not compatible with Tesseract, because your mac has an Apple Silicon processor, that uses the ARM64 architecture.</div>
+                <div class="warning">
+                    <strong data-localize="warning"></strong> <span data-localize="linux.before-we-start.warning"></span>
+                </div>
 
                 <div align="center">
                     <img src="./img/compatible.png" width="400" alt="Compatible"/>
                     <img src="./img/notcompatible.png" width="400" alt="Not Compatible"/>
                 </div>
-
-                <blockquote>
-                    <p>As long as it is compatible with <strong>ARM64</strong> processors, you may use any Linux distribution of your choice. Tesseract offers a choice of recommended Linux images, more on that below.</p>
-                </blockquote>
             </div>
         </section>
 
         <section class="section">
-            <h1>Let's get to it!</h1>
+            <h1 data-localize="shared.creation.title"></h1>
             <div class="card">
                 <ol>
-                    <li>Start Tesseract, and click on "<strong>Create a new Virtual Machine</strong>"
-                        <div align="center">
-                            <img data-theme-asset="createnew.png" width="200" alt="Create New VM"/>
-                        </div>
-                    </li>
-                    <li>Under "Operating System", select <strong>Linux</strong> as the operating system of your choice
-                        <div align="center">
-                            <img data-theme-asset="oschoice.png" width="400" alt="OS Choice"/>
-                        </div>
-                    </li>
-                    <li>Under "Installation Media", you will be presented with two options.
-                        <div align="center">
-                            <img data-theme-asset="pickafile-iso.png" width="400" alt="Pick a File"/>
-                        </div>
-                        <ul>
-                            <li>If you don't have a Linux .ISO file yet, you can click on the left small button and choose your favourite to download.</li>
-                            <div align="center">
-                                <img data-theme-asset="download-iso.png" width="300" alt="Pick a File"/>
-                            </div>
-
-                            <div>After clicking on the download button, your browser will open and the download will start. Wait for it to finish before continuing!</div>
-                            <div align="center">
-                                <img src="./img/downloading-iso.png" width="400" alt="Downloading ISO"/>
-                            </div>
-
-                            <li>If you already have one or you just downloaded a .ISO file, click on "<strong>+ Pick a file</strong>" to open the Finder file picker</li>
-                            <div align="center">
-                                <img data-theme-asset="pickafile-button.png" width="150" alt="Pick a File"/>
-                            </div>
-                        </ul>
-                    </li>
-                    <li>Select the previously downloaded .ISO image
-                        <div align="center">
-                            <img data-theme-asset="pickafile-iso-picker.png" width="600" alt="Pick ISO Image"/>
-                        </div>
-                    </li>
-                    <li>Select the desired performance preset
-
-                        <div class="tip"><strong>TIP:</strong> Leave this setting on "Balanced" if you are not sure!</div>
-
-                        <div align="center">
-                            <img data-theme-asset="presets-linux.png" width="400" alt="Performance Presets"/>
-                        </div>
+                    <li data-localize="shared.creation.step1"></li>
+                
+                    <div align="center">
+                        <img data-theme-asset="createnew.png" width="200" alt="Create New VM"/>
+                    </div>
                     
-                        <div class="tip"><strong>TIP:</strong> In case of custom parameters: Depending on what kind of Linux environment you want, the minimum requirements may change drastically. To make things simple for you, Tesseract's default values are tailored to give enough breathing room for most use cases. Also, your physical mac will not slow down due to having an excessive amount of resources allocated to the VM.</div>
-                        <div align="center">
-                            <img data-theme-asset="hardware.png" width="400" alt="Hardware Settings"/>
-                        </div>
-                    </li>
-                    <li>Select the optional features to enable for your virtual machine
+                    <li data-localize="linux.creation.step2"></li>
+                    
+                    <div align="center">
+                        <img data-theme-asset="oschoice.png" width="400" alt="OS Choice"/>
+                    </div>
 
-                        <div class="note"><strong>NOTE:</strong> All of these options are straightforward. The only one that may require some extra steps is "Enable shared directory": this option creates for you a folder that is shared between your mac and your Linux virtual machine, allowing you to transfer documents and other files facilitating your work. To know more on how to use this feature keep reading!</div>
+                    <li data-localize="shared.creation.step3"></li>
 
+                    <div align="center">
+                        <img data-theme-asset="pickafile-iso.png" width="400" alt="Pick a File"/>
+                    </div>
+
+                    <ul>
+                        <li data-localize="linux.creation.step3-1"></li>
+                        
                         <div align="center">
-                            <img data-theme-asset="optionalfeatures.png" width="400" alt="Optional Features"/>
+                            <img data-theme-asset="download-iso.png" width="300" alt="Pick a File"/>
                         </div>
-                    </li>
-                    <li>When you are satisfied with your options, click on <strong>Confirm and Create</strong>
+                    </ul>
+
+                    <div class="tip">
+                        <strong data-localize="tip"></strong><span data-localize="shared.creation.step3-1-tip"></span>
+                    </div>
+                        
+                    <div align="center">
+                        <img src="./img/downloading-iso.png" width="400" alt="Downloading ISO"/>
+                    </div>
+
+                    <ul>
+                        <li data-localize="shared.creation.step3-2"></li>
+                        
                         <div align="center">
-                            <img data-theme-asset="confirmandcreate.png" width="200" alt="Confirm and Create"/>
+                            <img data-theme-asset="pickafile-button.png" width="150" alt="Pick a File"/>
                         </div>
-                    </li>
-                    <li>Select your newly created virtual machine from the menu on your left
-                        <ul>
-                            <li>Now you can start it using the button in the top right corner
-                                <div align="center">
-                                    <img data-theme-asset="playbutton.png" width="400" alt="Play Button"/>
-                                </div>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>Profit</li>
+                    </ul>
+                    
+                    <li data-localize="linux.creation.step4"></li>
+        
+                    <div align="center">
+                        <img data-theme-asset="pickafile-iso-picker.png" width="600" alt="Pick ISO Image"/>
+                    </div>
+                    
+                    <li data-localize="shared.creation.step5"></li>
+
+                    <div class="tip">
+                        <strong data-localize="tip"></strong><span data-localize="shared.creation.step5-tip"></span>
+                    </div>
+
+                    <div align="center">
+                        <img data-theme-asset="presets-linux.png" width="400" alt="Performance Presets"/>
+                    </div>
+                    
+                    <div class="note">
+                        <strong data-localize="important"></strong><span data-localize="linux.creation.step5-info"></span>
+                    </div>
+                    
+                    <div align="center">
+                        <img data-theme-asset="hardware.png" width="400" alt="Hardware Settings"/>
+                    </div>
+                    
+                    <li data-localize="shared.creation.step6"></li>
+
+                    <div class="note">
+                        <strong data-localize="important"></strong><span data-localize="shared.creation.step6-info"></span>
+                    </div>
+
+                    <div align="center">
+                        <img data-theme-asset="optionalfeatures.png" width="400" alt="Optional Features"/>
+                    </div>
+                    
+                    <li data-localize="shared.creation.step7"></li>
+                        
+                    <div align="center">
+                        <img data-theme-asset="confirmandcreate.png" width="200" alt="Confirm and Create"/>
+                    </div>
+
+                    <li data-localize="shared.setup.step1"></li>
+                        
+                    <ul>
+                       <li data-localize="shared.setup.step1-1"></li>
+                
+                        <div align="center">
+                           <img data-theme-asset="playbutton.png" width="400" alt="Play Button"/>
+                        </div>
+                    </ul>
                 </ol>
             </div>
         </section>
 
         <section class="section">
-            <h1>A sidenote on the installation process</h1>
+            <h1 data-localize="shared.sidenote.title"></h1>
             <div class="card">
-                <p>Every Linux distribution out there provides their own installer, unfortunately Tesseract cannot automate the process for you. However, don't be scared to try and make mistakes, after all it's just a virtual machine, you can scrap it and start from scratch!</p>
-                <h2>Recommendation for advanced users</h2>
-                <p>To take a look at more advanced configuration steps and take advantage of Rosetta 2, along with the shared directory, click on <a href="./linux-additional.html">this link</a></p>
+                <p data-localize="linux.sidenote.message"></p>
+                <h2 data-localize="linux.advanced.recommendation"></h2>
+                <p><span data-localize="linux.advanced.introduction"></span> <a data-localize="linux.advanced.link-label" href="./linux-additional.html"></a></p>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Giuseppe Rocco. All rights reserved.</p>
+        <p data-localize="copyright"></p>
     </footer>
 </body>
 </html>
