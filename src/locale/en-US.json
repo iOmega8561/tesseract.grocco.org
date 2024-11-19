@@ -5,6 +5,8 @@
 
     "warning": "WARNING",
 
+    "tip": "TIP",
+
     "index": {
         "button-privacy": "PRIVACY",
         "button-download": "DOWNLOAD",
@@ -29,6 +31,21 @@
         "before-we-start": {
             "title": "Before we start",
             "warning": "Most Linux distributions provide installation images for Intel processors, labeled with <strong>amd64</strong>.<br>These images are not compatible with Tesseract, because your mac has an Apple Silicon processor, that uses the <strong>arm64</strong> architecture.<br>As long as it is compatible with <strong>arm64/aarch64</strong> processors, you may use any Linux distribution!"
+        },
+
+        "creation": {
+            "title": "Creation of the Virtual Machine",
+            "step1": "Start Tesseract, and click on <strong>Create a new Virtual Machine</strong>",
+            "step2": "Under <strong>Operating System</strong>, select <strong>Linux</strong> as the operating system of your choice",
+            "step3": "Under <strong>Installation Media</strong>, you will be presented with two options:",
+            "step3-1": "If you don't have a Linux .ISO file yet, you can click on the left small button and choose your favourite to download.",
+            "step3-1-tip": "After clicking on the download button, your browser will open and the download will start. Wait for it to finish before continuing!",
+            "step3-2": "If you already have one or you just downloaded a .ISO file, click on <strong>+ Pick a file</strong> to open the Finder file picker",
+            "step4": "Select the previously downloaded .ISO image",
+            "step5": "Select the desired performance preset",
+            "step5-tip": "This settings affects execution speed and other factors. Leave it on <strong>Balanced</strong> if you are not sure!",
+            "step5-info": "In case of custom parameters: Depending on what kind of Linux environment you want, the minimum requirements may change drastically.<br>To make things simple for you, Tesseract's default values are tailored to give enough breathing room for most use cases.<br>Also, your physical mac will not slow down due to having an excessive amount of resources allocated to the VM",
+            "step6": "Select the optional features to enable for your virtual machine"
         }
     }
 }

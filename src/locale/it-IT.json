@@ -5,6 +5,8 @@
 
     "warning": "ATTENZIONE",
 
+    "tip": "SUGGERIMENTO",
+
     "index": {
         "button-privacy": "PRIVACY",
         "button-download": "SCARICA",
@@ -29,6 +31,21 @@
         "before-we-start": {
             "title": "Prima di iniziare",
             "warning": "La maggior parte delle distribuzioni Linux forniscono immagini di installazione per processori Intel, etichettati con <strong>amd64</strong>.<br> Queste immagini non sono compatibili con Tesseract, perché il tuo Mac ha un processore Apple Silicon, che utilizza l'architettura <strong>arm64</strong>.<br>A patto che sia specifica per processori <strong>arm64/aarch64</strong>, qualsiasi distribuzione Linux è utilizzabile con Tesseract!"
+        },
+
+        "creation": {
+            "title": "Creazione della Macchina Virtuale",
+            "step1": "Avvia Tesseract, e clicca su <strong>Crea una nuova Macchina Virtuale</strong>",
+            "step2": "Sotto <strong>Sistema Operativo</strong>, selezione <strong>Linux</strong> come il sistema operativo da te scelto.",
+            "step3": "Sotto <strong>Media di Installazione</strong>, saranno previste due opzioni:",
+            "step3-1": "Se ancora non disponi di un file di installazione .ISO per Linux, puoi cliccare sul piccolo pulsante sinistro e scaricare uno dei consigliati.",
+            "step3-1-tip": "Cliccando sul pulsantino a destra, si aprirà il browser e partirà il download dell'immagine scelta. Prima di continuare aspetta che il download termini!",
+            "step3-2": "Se disponi già di un file oppure lo hai appena scaricato, clicca su <strong>+ Scegli File</strong",
+            "step4": "Seleziona il file .ISO scaricato in precedenza",
+            "step5": "Seleziona il profilo prestazionale che preferisci",
+            "step5-tip": "Questa impostazione ha effetto sulla velocità di esecuzione e altri fattori. E' consigliato lasciarla su <strong>Bilanciato</strong> se non si è sicuri di cosa fare!",
+            "step5-info": "In caso di parametri personalizzati: a seconda del tipo di ambiente Linux desiderato, i requisiti minimi potrebbero cambiare drasticamente.<br>Per semplificarti le cose, i valori predefiniti di Tesseract sono personalizzati per dare abbastanza respiro per la maggior parte degli usi.<br>Inoltre, il tuo Mac fisico non rallenterà a causa di una quantità eccessiva di risorse allocate alla VM.",
+            "step6": "Seleziona le caratteristiche opzionali di cui la macchina virtuale deve disporre"
         }
     }
 }
