@@ -30,7 +30,7 @@ function localizeContent(localizationData) {
         });
 
         if (value) {
-            element.textContent = value;
+            element.innerHTML = value;
         } else {
             console.warn(`Missing localization key: ${key}`);
         }
