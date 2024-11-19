@@ -22,6 +22,32 @@
         "before-we-start": {
             "title": "Prima di iniziare",
             "note": "A cause di una limitazione imposta da Apple, è possibile create molteplici macchine macOS, ma sono due per volta possono essere avviate. Provando ad avviarne più di due, verrà mostrato il seguente errore."
+        },
+
+        "creation": {
+            "title": "Creazione della Macchina Virtuale",
+            "step1": "Avvia Tesseract, e clicca su <strong>Crea una nuova Macchina Virtuale</strong>",
+            "step2": "Sotto <strong>Sistema Operativo</strong>, selezione <strong>macOS</strong> come il sistema operativo da te scelto.",
+            "step3": "Sotto <strong>Media di Installazione</strong>, saranno previste due opzioni:",
+            "step3-1": "Se ancora non disponi di un file di ripristino .IPSW per macOS, puoi cliccare sul piccolo pulsante sinistro e scaricare uno dei consigliati.",
+            "step3-1-tip": "Cliccando sul pulsantino a destra, si aprirà il browser e partirà il download dell'immagine scelta. Prima di continuare aspetta che il download termini!",
+            "step3-2": "Se disponi già di un file oppure lo hai appena scaricato, clicca su <strong>+ Scegli File</strong",
+            "step4": "Seleziona l'immagine di ripristino .IPSW scaricato in precedenza",
+            "step5": "Seleziona il profilo prestazionale che preferisci",
+            "step5-tip": "Questa impostazione ha effetto sulla velocità di esecuzione e altri fattori. E' consigliato lasciarla su <strong>Bilanciato</strong> se non si è sicuri di cosa fare!",
+            "step5-info": "In caso di parametri personalizzati: macOS necessita di requisiti minimi che generalmente sono sempre più alti rispetto a Linux. Per un'esperienza ottimale Tesseract mostrerà avvisi, nel caso i parametri non rientrassero nella soglia si sicurezza.",
+            "step6": "Seleziona le caratteristiche opzionali di cui la macchina virtuale deve disporre",
+            "step6-info": "<strong>Tipo di rete:</strong> questa opzione consente di decidere se la macchina virtuale deve essere isolata in rete (Nessuno), connessa tramite NAT (Condivisa) o su una rete con bridge (Avanzata). Condivisa è consigliato agli utenti principianti.<br><strong>Abilita directory condivisa:</strong> questa opzione crea per te una cartella condivisa tra il tuo Mac e la tua macchina virtuale Linux, permettendoti di trasferire documenti e altri file facilitando il tuo lavoro. Per saperne di più su come utilizzare questa funzione continua a leggere!",
+            "step7": "Una volta terminata la configurazione, clicca su <strong>Conferma e Crea</strong>"
+        },
+
+        "installation": {
+            "title": "Installazione di macOS nella Macchina",
+            "step1": "Seleziona la tua nuova Macchina Virtuale dal menù sulla sinistra",
+            "step1-1": "Ora è possibile avviare la Macchina utilizzando il pulsante in alto",
+            "step2": "Quando viene mostrato l'avviso, clicca su <strong>Conferma</strong>",
+            "step3": "Il processo di ripristino inizierà, potrebbe richiedere del tempo.",
+            "step4": "Una volta raggiunto il 100%, la macchina virtuale si spegnerà in automatico. La prossima volta basterà solo avviarla!"
         }
     },
 

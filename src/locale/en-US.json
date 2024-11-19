@@ -22,6 +22,32 @@
         "before-we-start": {
             "title": "Before we start",
             "note": "Due to a limitation imposed by Apple, you can create as many macOS VMs as you want, but you can only start two at any given time. If you try to start more than two macOS virtual machines, you will be greeted by the following error."
+        },
+
+        "creation": {
+            "title": "Creation of the Virtual Machine",
+            "step1": "Start Tesseract, and click on <strong>Create a new Virtual Machine</strong>",
+            "step2": "Under <strong>Operating System</strong>, select <strong>macOS</strong> as the operating system of your choice",
+            "step3": "Under <strong>Installation Media</strong>, you will be presented with two options:",
+            "step3-1": "If you don't have a macOS .IPSW file yet, you can click on the left small button and choose your favourite to download.",
+            "step3-1-tip": "After clicking on the download button, your browser will open and the download will start. Wait for it to finish before continuing!",
+            "step3-2": "If you already have one or you just downloaded a .IPSW file, click on <strong>+ Pick a file</strong> to open the Finder file picker",
+            "step4": "Select the previously downloaded .IPSW recovery image",
+            "step5": "Select the desired performance preset",
+            "step5-tip": "This settings affects execution speed and other factors. Leave it on <strong>Balanced</strong> if you are not sure!",
+            "step5-info": "In case of custom parameters: macOS generally demands higher minimum requirements than Linux. To ensure an optimal experience, Tesseract will show warning if the parameters don't meet the minimum target.",
+            "step6": "Select the optional features to enable for your virtual machine",
+            "step6-info": "<strong>Network type:</strong> This option let's you decide wether the virtual machine should be network isolated (None), connected using NAT (Shared) or on a bridged network (Advanced). Shared is recommended for beginner users.<br><strong>Enable shared directory:</strong> this option creates for you a folder that is shared between your mac and your Linux virtual machine, allowing you to transfer documents and other files facilitating your work. To know more on how to use this feature keep reading!",
+            "step7": "When you are satisfied with your options, click on <strong>Confirm and Create</strong>"
+        },
+
+        "installation": {
+            "title": "macOS Installation Process",
+            "step1": "Select your newly created virtual machine from the menu on your left",
+            "step1-1": "Now you can start it using the button in the top right corner",
+            "step2": "Select <strong>Confirm</strong> when the alert dialog pops up",
+            "step3": "The installation process will start, don't worry if it takes time!",
+            "step4": "When the installation reaches 100%, the Virtual Machine shuts off automatically. Next time just start it and enjoy!"
         }
     },
 
@@ -54,7 +80,10 @@
 
         "sidenote": {
             "title": "A sidenote about the process",
-            "message": "Every Linux distribution out there provides their own installer, unfortunately Tesseract cannot automate the process for you.<br>However, don't be scared to try and make mistakes, after all it's just a virtual machine, you can scrap it and start from scratch!"
+            "message": "Every Linux distribution out there provides their own installer, unfortunately Tesseract cannot automate the process for you.<br>However, don't be scared to try and make mistakes, after all it's just a virtual machine, you can scrap it and start from scratch!",
+            "advanced": "Recommendation for advanced users",
+            "advanced-message": "To take a look at more advanced configuration steps and take advantage of Rosetta 2, along with the shared directory, click on",
+            "advanced-link": "this link"
         }
     }
 }
