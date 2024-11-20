@@ -58,10 +58,8 @@ pre {
     font-size: 26px;
 }
 
-.warning {
-    background-color: #ffcc00;
+.boxed-container {
     color: #000;
-    border: 2px solid #ff9900;
     padding: 15px;
     margin: 20px 0;
     border-radius: 5px;
@@ -70,8 +68,13 @@ pre {
     align-items: center;
 }
 
-.warning strong {
+.boxed-container .title {
     margin-right: 10px;
+}
+
+.warning {
+    background-color: #ffcc00;
+    border: 2px solid #ff9900;
 }
 
 .warning::before {
@@ -82,18 +85,7 @@ pre {
 
 .tip {
     background-color: #3bd640;
-    color: #000;
     border: 2px solid #2c872f;
-    padding: 15px;
-    margin: 20px 0;
-    border-radius: 5px;
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-}
-
-.tip strong {
-    margin-right: 10px;
 }
 
 .tip::before {
@@ -104,18 +96,7 @@ pre {
 
 .note {
     background-color: #7aaaf9;
-    color: #000;
     border: 2px solid #2c4a87;
-    padding: 15px;
-    margin: 20px 0;
-    border-radius: 5px;
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-}
-
-.note strong {
-    margin-right: 10px;
 }
 
 .note::before {
