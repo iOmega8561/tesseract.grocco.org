@@ -125,21 +125,22 @@ pre {
         color: #ffffff;
     }
 
+    .boxed-container {
+        color: #fff;
+    }
+
     .warning {
         background-color: #8e7100;
-        color: #fff;
         border: 2px solid #945900;
     }
 
     .tip {
         background-color: #1f6c22;
-        color: #fff;
         border: 2px solid #1e5a20;
     }
 
     .note {
         background-color: #3d5479;
-        color: #fff;
         border: 2px solid #192949;
     }
 }
