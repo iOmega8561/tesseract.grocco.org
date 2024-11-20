@@ -1,22 +1,22 @@
 [
     {
         "name": "Sequoia 15.1.1",
-        "logoURL": "https://static.wikia.nocookie.net/logopedia/images/3/33/MacOS_Sequoia_Icon.png/revision/latest?cb=20240920141440",
+        "logoURL": "https://tesseract.grocco.org/img/os-assets/sequoia.png",
         "downloadURL": "https://updates.cdn-apple.com/2024FallFCS/fullrestores/072-30094/44BD016F-6EE3-4EE5-8890-6F9AA008C537/UniversalMac_15.1.1_24B91_Restore.ipsw"
     },
     {
         "name": "Sonoma 14.6.1",
-        "logoURL": "https://static.wikia.nocookie.net/logopedia/images/a/a6/Macos-14.png/revision/latest?cb=20230917040201",
+        "logoURL": "https://tesseract.grocco.org/img/os-assets/sonoma.png",
         "downloadURL": "https://updates.cdn-apple.com/2024SummerFCS/fullrestores/062-52859/932E0A8F-6644-4759-82DA-F8FA8DEA806A/UniversalMac_14.6.1_23G93_Restore.ipsw"
     },
     {
         "name": "Ventura 13.6",
-        "logoURL": "https://static.wikia.nocookie.net/logopedia/images/c/ca/Ventura_Icon.png/revision/latest/scale-to-width-down/1000?cb=20230215123726",
+        "logoURL": "https://tesseract.grocco.org/img/os-assets/ventura.png",
         "downloadURL": "https://updates.cdn-apple.com/2023FallFCS/fullrestores/042-55833/C0830847-A2F8-458F-B680-967991820931/UniversalMac_13.6_22G120_Restore.ipsw"
     },
     {
         "name": "Monterey 12.6",
-        "logoURL": "https://static.wikia.nocookie.net/logopedia/images/4/47/MontereyProductPageIcon.png/revision/latest/scale-to-width-down/1000?cb=20210629210611",
+        "logoURL": "https://tesseract.grocco.org/img/os-assets/monterey.png",
         "downloadURL": "https://updates.cdn-apple.com/2022FallFCS/fullrestores/012-40537/0EC7C669-13E9-49FB-BD64-9EECC1D174B2/UniversalMac_12.6_21G115_Restore.ipsw"
     }
 ]
