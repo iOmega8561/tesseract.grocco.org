@@ -1,8 +1,8 @@
 [
     {
-        "name": "Sequoia 15.1",
+        "name": "Sequoia 15.1.1",
         "logoURL": "https://static.wikia.nocookie.net/logopedia/images/3/33/MacOS_Sequoia_Icon.png/revision/latest?cb=20240920141440",
-        "downloadURL": "https://updates.cdn-apple.com/2024FallFCS/fullrestores/072-12340/78D28AC4-CCFC-45D2-BD27-1E5D915E43F9/UniversalMac_15.1_24B83_Restore.ipsw"
+        "downloadURL": "https://updates.cdn-apple.com/2024FallFCS/fullrestores/072-30094/44BD016F-6EE3-4EE5-8890-6F9AA008C537/UniversalMac_15.1.1_24B91_Restore.ipsw"
     },
     {
         "name": "Sonoma 14.6.1",
