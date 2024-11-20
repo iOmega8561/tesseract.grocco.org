@@ -1,10 +1,29 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-width: 550px;
+    min-height: 100vh;
+}
+
 footer {
     text-align: center;
     padding: 1px;
-    background-color: #fff; /* Bianco per il footer */
+    background-color: #fff;
     color: #000;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
     position: relative;
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 95%;
     max-width: 100%;
 }
 
