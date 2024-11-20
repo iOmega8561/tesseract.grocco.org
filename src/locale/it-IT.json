@@ -1,0 +1,135 @@
+{
+    "copyright": "&copy; 2024 Giuseppe Rocco. Tutti i diritti riservati.",
+    "important": "IMPORTANTE",
+    "warning": "ATTENZIONE",
+    "tip": "SUGGERIMENTO",
+
+    "index": {
+        "button-privacy": "PRIVACY",
+        "button-download": "SCARICA",
+        "button-linux": "INIZIA CON LINUX",
+        "button-macos": "INIZIA CON MACOS",
+        "slogan-line1": "Macchine Virtuali",
+        "slogan-line2": "mai state così semplici."
+    },
+
+    "privacy": {
+        "title": "Privacy Policy",
+
+        "section1": {
+            "title": "RACCOLTA DATI",
+            "content": "L'Applicazione non colleziona, preserva o trasmette alcun genere di informazione personale o altresì dato.<br>Nessuna trasmissione viene effettuata da e per alcun server eccetto questo sito, in modo da ottenere le informazioni più recenti sulle immagini di installazione consigliate.<br>L'uso/funzionamento dell'applicazione è totalmente locale e contenuto nel dispositivo."
+        },
+
+        "section2": {
+            "title": "TERZE PARTI",
+            "content": "Quando Tesseract avvia il processo di ripristino di macOS su una Macchina Virtuale, dei server di Apple potrebbero essere contattati per dare inizio alla procedura.<br>Apple potrebbe trattenere informazioni sugli indirizzi IP che contattano i propri server, a tal proposito riferirsi alla",
+            "link": "privacy policy di Apple"
+        },
+
+        "section3": {
+            "title": "AGGIORNAMENTI",
+            "content": "L'ultimo aggiornamento a queta pagina è stato effettuato in data 19 Novembre 2024"
+        }
+    },
+
+    "shared": {
+        "before-we-start": {
+            "title": "Prima di iniziare"
+        },
+
+        "creation": {
+            "title": "Creazione della Macchina Virtuale",
+            "step1": "Avvia Tesseract, e clicca su <strong>Crea una nuova Macchina Virtuale</strong>",
+            "step3": "Sotto <strong>Media di Installazione</strong>, saranno previste due opzioni:",
+            "step3-1-tip": "Cliccando sul pulsantino a destra, si aprirà il browser e partirà il download dell'immagine scelta. Prima di continuare aspetta che il download termini!",
+            "step3-2": "Se disponi già di un file oppure lo hai appena scaricato dallo step precedente, clicca su <strong>+ Scegli File</strong",
+            "step5": "Seleziona il profilo prestazionale che preferisci",
+            "step5-tip": "Questa impostazione ha effetto sulla velocità di esecuzione e altri fattori. E' consigliato lasciarla su <strong>Bilanciato</strong> se non si è sicuri di cosa fare!",
+            "step6": "Seleziona le caratteristiche opzionali di cui la macchina virtuale deve disporre",
+            "step6-info": "<strong>Tipo di rete:</strong> questa opzione consente di decidere se la macchina virtuale deve essere isolata in rete (Nessuno), connessa tramite NAT (Condivisa) o su una rete con bridge (Avanzata). Condivisa è consigliato agli utenti principianti.<br><strong>Abilita directory condivisa:</strong> questa opzione crea per te una cartella condivisa tra il tuo Mac e la tua macchina virtuale Linux, permettendoti di trasferire documenti e altri file facilitando il tuo lavoro. Per saperne di più su come utilizzare questa funzione continua a leggere!",
+            "step7": "Una volta terminata la configurazione, clicca su <strong>Conferma e Crea</strong>"
+        },
+
+        "setup": {
+            "step1": "Seleziona la tua nuova Macchina Virtuale dal menù sulla sinistra",
+            "step1-1": "Ora è possibile avviare la Macchina utilizzando il pulsante in alto"
+        },
+
+        "sidenote": {
+            "title": "Nota a margine sul processo"
+        }
+    },
+
+    "macos": {
+        "title": "Macchina Virtuale macOS",
+
+        "before-we-start": {
+            "note": "A causa di una limitazione imposta da Apple, è possibile create molteplici macchine macOS, ma sono due per volta possono essere avviate.<br>Provando ad avviarne più di due, insieme, verrà mostrato il seguente errore."
+        },
+
+        "creation": {
+            "step2": "Sotto <strong>Sistema Operativo</strong>, seleziona <strong>macOS</strong> come il sistema operativo da te scelto.",
+            "step3-1": "Se ancora non disponi di un file di ripristino .IPSW per macOS, puoi cliccare sul piccolo pulsante sinistro e scaricare uno dei consigliati.",
+            "step4": "Seleziona il file immagine di ripristino .IPSW scaricato in precedenza",
+            "step5-info": "In caso di parametri personalizzati: macOS necessita di requisiti minimi che generalmente sono sempre più alti rispetto a Linux. Per un'esperienza ottimale Tesseract mostrerà avvisi, nel caso i parametri non rientrassero nella soglia si sicurezza."
+        },
+
+        "setup": {
+            "title": "Installazione di macOS nella Macchina",
+            "step2": "Quando viene mostrato l'avviso, clicca su <strong>Conferma</strong>",
+            "step3": "Il processo di ripristino inizierà, potrebbe richiedere del tempo.",
+            "step4": "Una volta raggiunto il 100%, la macchina virtuale si spegnerà in automatico. La prossima volta basterà solo avviarla!"
+        },
+
+        "sidenote": {
+            "message": "Non buttare via i tuoi file .IPSW! Tesseract ne ha bisogno per inizializzare la tua macchina virtuale ad ogni avvio. Se il file originale viene eliminato o spostato, la macchina virtuale segnalerà un errore di configurazione. Non preoccuparti, puoi utilizzare un altro file: seleziona la tua VM dal menu principale e fai clic sul supporto di installazione per selezionarne uno nuovo."
+        }
+    },
+
+    "linux": {
+        "title": "Macchina Virtuale Linux",
+
+        "before-we-start": {
+            "warning": "La maggior parte delle distribuzioni Linux fornisce immagini di installazione per processori Intel, etichettati con <strong>amd64</strong>.<br> Queste immagini non sono compatibili con Tesseract, perché il tuo Mac ha un processore Apple Silicon, che utilizza l'architettura <strong>arm64</strong>.<br>A patto che sia specifica per processori <strong>arm64/aarch64</strong>, qualsiasi distribuzione Linux è utilizzabile con Tesseract!"
+        },
+
+        "creation": {
+            "step2": "Sotto <strong>Sistema Operativo</strong>, selezione <strong>Linux</strong> come il sistema operativo da te scelto.",
+            "step3-1": "Se ancora non disponi di un file di installazione .ISO per Linux, puoi cliccare sul piccolo pulsante sinistro e scaricare uno dei consigliati.",
+            "step4": "Seleziona il file .ISO scaricato in precedenza",
+            "step5-info": "In caso di parametri personalizzati: a seconda del tipo di ambiente Linux desiderato, i requisiti minimi potrebbero cambiare drasticamente.<br>Per semplificarti le cose, i valori predefiniti di Tesseract sono personalizzati per dare abbastanza respiro per la maggior parte degli usi.<br>Inoltre, il tuo Mac fisico non rallenterà a causa di una quantità eccessiva di risorse allocate alla VM."
+        },
+
+        "sidenote": {
+            "message": "Ogni distribuzione Linux disponibile fornisce il proprio programma di installazione, sfortunatamente Tesseract non può automatizzare il processo per te.<br>Tuttavia, non aver paura di provare a commettere errori, dopotutto è solo una macchina virtuale, puoi distruggerla e ricominciare da capo!"
+        },
+
+        "advanced": {
+            "title": "Configurazione Avanzata per Linux",
+            "recommendation": "Raccomandazione per utenti esperti",
+            "introduction": "Per dare un'occhiata ai passaggi di configurazione più avanzati e sfruttare Rosetta 2, insieme alla directory condivisa, clicca su",
+            "link-label": "questo link",
+            
+            "directory": {
+                "title": "Accesso alla cartella condivisa",
+                "info": "Su Linux, sfortunatamente, è necessario eseguire un paio di passaggi prima di poter accedere alla directory condivisa che Tesseract ha configurato in precedenza. Non è sicuramente un processo difficile, esaminiamolo insieme!",
+                "step1": "Apri una nuova finestra di terminale ed esegui il seguente comando per creare una nuova cartella, rimpiazzando <strong>MyCustomDirName</strong> con il nome che vuoi assegnare alla nuova cartella.",
+                "step2": "Esegui il seguente comando per montare il volume, facendo attenzione a rimpiazzare <strong>MyCustomDirName</strong> col nome della cartella appena creata.",
+                "success": "Questo è tutto, avendo eseguito tutto correttamente ora sarà possibile accedere alla cartella per condividere i file con il tuo Mac."
+            },
+
+            "rosetta": {
+                "title": "Come utilizzare Rosetta 2",
+                "intro": "Come impostazione predefinita, Rosetta 2 è abilitato su tutte le macchine virtuali create con Tessereact, ma per sfruttare questa funzionalità è necessario eseguire una serie di step.<br>Non temere, è tutto spiegato quì!",
+                "warning": "Per questa procedura è necessario il comando <strong>update-binfmts</strong>. Sfortunatamente il processo di installazione di questo comando/eseguibile è diverso per ogni distribuzione Linux.<br>Si raccomanda di utilizzare Debian Linux. Per l'installazione va eseguito il comando <strong>sudo apt install update-binfmts</strong>",
+                "step1": "Per prima cosa, creaiamo un mountpoint temporaneo col seguente comando: ",
+                "step2": "Adesso montiamo il volume di Rosetta 2 con il seguente comando: ",
+                "step3": "Se tutto è andato per il verso giusto, questo comando restituirà diverse righe di output: ",
+                "step4": "Per concludere, installiamo Rosetta con il seguente comando:",
+                "failure": "In caso di necessità, per conoscere di più sull'utilizzo di Rosetta con Linux o per eventuali problemi, fare riferimento alla",
+                "failure-link": "documentazione di Apple"
+            }
+        }
+    }
+}

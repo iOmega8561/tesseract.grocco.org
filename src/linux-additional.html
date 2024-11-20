@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/styles-help.css">
     <link rel="stylesheet" href="./css/styles-shared.css">
     <link rel="icon" href="./img/appicon1024.png" type="image/png">
+    <script src="./js/dynamic-locale-loader.js"></script>
 </head>
 <body>
     <header>
@@ -15,29 +16,35 @@
             <p class="text">Tesseract</p>
         </div>
     
-        <h2>Linux Additional Configuration</h2>
+        <h2 data-localize="linux.advanced.title"></h2>
     </header>
     
     <main>
         <section class="section">
-            <h1>How to access the shared folder</h1>
+            <h1 data-localize="linux.advanced.directory.title"></h1>
             <div class="card">
                 
-                <div class="note"><strong>IMPORTANT:</strong> On Linux unfortunately it is required to perform a couple of steps before using the shared directory that Tesseract set up for you earlier. It is definitely not a hard process I would say, let's go through it together!</div>
+                <div class="boxed-container note">
+                    <strong class="title" data-localize="important"></strong><span data-localize="linux.advanced.directory.info"></span>
+                </div>
                 
                 <ol>
-                    <li>Open a terminal prompt and create a new directory, replacing <strong>MyCustomDirName</strong> with the name you want for this new folder
-                        <div align="center">
-                            <img src="./img/linux-mkdir.png" width="600" alt="Create Directory"/>
-                        </div>
-                    </li>
-                    <li>Input this command, replacing <strong>MyCustomDirName</strong> with the name you chose for the folder that has been just created
-                        <div align="center">
-                            <img src="./img/linux-mount.png" width="600" alt="Mount Directory"/>
-                        </div>
-                    </li>
+                    <li data-localize="linux.advanced.directory.step1"></li>
+            
+                    <div align="center">
+                        <img src="./img/linux-mkdir.png" width="600" alt="Create Directory"/>
+                    </div>
+            
+                    <li data-localize="linux.advanced.directory.step2"></li>
+            
+                    <div align="center">
+                        <img src="./img/linux-mount.png" width="600" alt="Mount Directory"/>
+                    </div>
+    
                 </ol>
-                <p>And that's it, now you can access <strong>MyCustomDirName</strong> and share content with your mac operating system!</p>
+                
+                <p data-localize="linux.advanced.directory.success"></p>
+
                 <div align="center">
                     <img src="./img/linux-shared.png" width="400" alt="Access Shared Folder"/>
                 </div>
@@ -45,39 +52,43 @@
         </section>
 
         <section class="section">
-            <h1>How to use Rosetta 2 in Linux</h1>
+            <h1 data-localize="linux.advanced.rosetta.title"></h1>
             <div class="card">
-                <p>Rosetta 2 is enabled by default with every Linux virtual machine on Tesseract, but unfortunately it takes some more steps to get it configured and functional. Don't worry though, we'll go through it together!</p>
+                <p data-localize="linux.advanced.rosetta.intro"></p>
                 
-                <div class="warning"><strong>WARNING:</strong> This procedure requires the "update-binfmts" command. The installation will not be the same depending on the Linux distribution you choose. For Debian and derivatives it is: "sudo apt install update-binfmts"</div>
+                <div class="boxed-container warning">
+                    <strong class="title" data-localize="warning"></strong><span data-localize="linux.advanced.rosetta.warning"></span>
+                </div>
                 
                 <ol>
-                    <li>First, we want to create a new temporary mountpoint  
-                        <code>mkdir /tmp/mountpoint</code>
-                    </li>
-                    <li>Now we mount Rosetta 2 shared directory with this command  
-                        <code>sudo mount -t virtiofs ROSETTA_SHARE /tmp/mountpoint</code>
-                    </li>
-                    <li>Let's check if everything went well! This command should have some output  
-                        <code>ls /tmp/mountpoint rosetta</code>
-                    </li>
-                    <li>Next, we use this command to install Rosetta  
-                        <pre>
-                            <code>
-                                sudo /usr/sbin/update-binfmts --install rosetta /tmp/mountpoint/rosetta \
-                                    --magic "\x7fELF\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x3e\x00" \
-                                    --mask "\xff\xff\xff\xff\xff\xfe\xfe\x00\xff\xff\xff\xff\xff\xff\xff\xff\xfe\xff\xff\xff" \
-                                    --credentials yes --preserve yes --fix-binary yes
-                            </code>
-                        </pre>
-                    </li>
+                    <li data-localize="linux.advanced.rosetta.step1"></li>
+                    <pre><code>mkdir /tmp/mountpoint</code></pre>
+                    
+                    <li data-localize="linux.advanced.rosetta.step2"></li>
+                    <pre><code>sudo mount -t virtiofs ROSETTA_SHARE /tmp/mountpoint</code></pre>
+                    
+                    <li data-localize="linux.advanced.rosetta.step3"></li> 
+                    <pre><code>ls /tmp/mountpoint rosetta</code></pre>
+                    
+                    <li data-localize="linux.advanced.rosetta.step4"></li>
                 </ol>
+                    
+                <pre>
+                    <code>
+                        sudo /usr/sbin/update-binfmts --install rosetta /tmp/mountpoint/rosetta \<br>
+                            --magic "\x7fELF\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x3e\x00" \<br>
+                            --mask "\xff\xff\xff\xff\xff\xfe\xfe\x00\xff\xff\xff\xff\xff\xff\xff\xff\xfe\xff\xff\xff" \<br>
+                            --credentials yes --preserve yes --fix-binary yes
+                    </code>
+                </pre>
+                
+                <p><span data-localize="linux.advanced.rosetta.failure"></span> <a data-localize="linux.advanced.rosetta.failure-link" href="https://developer.apple.com/documentation/virtualization/running_intel_binaries_in_linux_vms_with_rosetta"></a></p>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Giuseppe Roccco. All rights reserved.</p>
+        <p data-localize="copyright"></p>
     </footer>
 </body>
 </html>

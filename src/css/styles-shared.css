@@ -1,11 +1,39 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-width: 550px;
+    min-height: 100vh;
+}
+
 footer {
     text-align: center;
     padding: 1px;
-    background-color: #fff; /* Bianco per il footer */
+    background-color: #fff;
     color: #000;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
     position: relative;
     max-width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 95%;
+    max-width: 100%;
+}
+
+pre {
+    margin: auto;
+    overflow-x: auto;
+    white-space: nowrap;
+    max-width: fit-content;
+    border: 1px solid #ccc;
+    padding: 10px;
 }
 
 .button {
@@ -49,10 +77,8 @@ footer {
     font-size: 26px;
 }
 
-.warning {
-    background-color: #ffcc00;
+.boxed-container {
     color: #000;
-    border: 2px solid #ff9900;
     padding: 15px;
     margin: 20px 0;
     border-radius: 5px;
@@ -61,8 +87,13 @@ footer {
     align-items: center;
 }
 
-.warning strong {
+.boxed-container .title {
     margin-right: 10px;
+}
+
+.warning {
+    background-color: #ffcc00;
+    border: 2px solid #ff9900;
 }
 
 .warning::before {
@@ -73,18 +104,7 @@ footer {
 
 .tip {
     background-color: #3bd640;
-    color: #000;
     border: 2px solid #2c872f;
-    padding: 15px;
-    margin: 20px 0;
-    border-radius: 5px;
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-}
-
-.tip strong {
-    margin-right: 10px;
 }
 
 .tip::before {
@@ -95,18 +115,7 @@ footer {
 
 .note {
     background-color: #7aaaf9;
-    color: #000;
     border: 2px solid #2c4a87;
-    padding: 15px;
-    margin: 20px 0;
-    border-radius: 5px;
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-}
-
-.note strong {
-    margin-right: 10px;
 }
 
 .note::before {
@@ -135,21 +144,22 @@ footer {
         color: #ffffff;
     }
 
+    .boxed-container {
+        color: #fff;
+    }
+
     .warning {
         background-color: #8e7100;
-        color: #fff;
         border: 2px solid #945900;
     }
 
     .tip {
         background-color: #1f6c22;
-        color: #fff;
         border: 2px solid #1e5a20;
     }
 
     .note {
         background-color: #3d5479;
-        color: #fff;
         border: 2px solid #192949;
     }
 }
