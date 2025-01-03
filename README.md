@@ -13,14 +13,6 @@
 
 </div>
 
-## Table of Contents
-
-- [About Tesseract](#about-Tesseract)
-- [Technologies Used](#technologies-used)
-- [Minimum Requirements](#minimum-requirements)
-- [License](#license)
-- [Contact](#contact)
-
 ## About Tesseract
 
 Tesseract is a cutting-edge virtual machine manager that redefines simplicity and efficiency in managing virtual environments. Tailored for professionals and enthusiasts alike, Tesseract empowers you to:
@@ -59,8 +51,7 @@ Tesseract is developed using the latest Apple technologies to provide a seamless
 The website hosted in this repository is distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 > [!CAUTION]
-> The Tesseract logo, code and any related assets, are not covered under MIT and are protected under &copy; copyright law.  
-> Unauthorized use, reproduction, or distribution of the logo or any of the assets, is prohibited.
+> The Tesseract logo, code and any related assets, are not covered under MIT and are protected under &copy; copyright law. Unauthorized use, reproduction, or distribution of the logo or any of the assets, is prohibited.
 
 ## Contact
 
