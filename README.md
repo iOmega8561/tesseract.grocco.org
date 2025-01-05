@@ -15,12 +15,11 @@
 
 ## About Tesseract
 
-Tesseract is a cutting-edge virtual machine manager that redefines simplicity and efficiency in managing virtual environments. Tailored for professionals and enthusiasts alike, Tesseract empowers you to:
+Tesseract is a cutting-edge virtual machine manager that redefines simplicity and efficiency in managing virtual environments. Perfect for professionals, enthusiasts and casual users alike, Tesseract empowers you to:
 
-- **Deploy** virtual machines in minutes.
+- **Deploy** virtual machines in a matter of seconds.
 - **Manage** multiple VMs effortlessly through an intuitive dashboard.
-- **Monitor** resource usage in real-time.
-- **Automate** routine tasks with powerful scripting capabilities.
+- **Tailor** your virtual machines to your specific needs and use-case.
 
 > [!TIP]
 > Discover more at [Tesseract's official website](https://tesseract.grocco.org).
@@ -32,11 +31,10 @@ Tesseract is developed using the latest Apple technologies to provide a seamless
 - **SwiftUI** for building a modern, intuitive user interface.
 - **AppKit** for integrating with macOS features.
 - **SwiftData** for efficient data management.
-- **VirtualizationKit**: for having a solid foundation to build robust and compelling virtualization features.
+- **VirtualizationKit**: as a solid foundation to build robust and compelling virtualization features.
 
 > [!NOTE]
-> VirtualizationKit is a new, modern, custom framework, built from scratch entirely by me.  
-> This framework wraps Apple's own Virtualization Framework and enhances performance and stability.
+> VirtualizationKit is a new, modern, custom framework, that expands on Apple Virtualization to enhance features and stability. Tailored for SwiftUI and Swift's structured concurrency model, this framework allows to build great virtualization software.
 
 ## Minimum Requirements
 
