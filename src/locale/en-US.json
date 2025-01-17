@@ -41,13 +41,13 @@
 
         "creation": {
             "title": "Creation of the Virtual Machine",
-            "step1": "Start Tesseract, and click on <strong>Create a new Virtual Machine</strong>",
+            "step1": "Start Tesseract, and click on <strong>New Virtual Machine</strong>",
             "step3": "Under <strong>Installation Media</strong>, you will be presented with two options:",
-            "step3-1-tip": "After clicking on the download button, your browser will open and the download will start. Wait for it to finish before continuing!",
+            "step3-1-tip": "After clicking on the download button to the right of a recommended media, your default browser will open and the download will start. Wait for it to finish before continuing!",
             "step3-2": "If you already have one or you just downloaded from the previous step, click on <strong>+ Pick a file</strong> to open the Finder file picker",
             "step5": "Select the desired performance preset",
-            "step5-tip": "This settings affects execution speed and other factors. Leave it on <strong>Balanced</strong> if you are not sure!",
-            "step6": "Select the optional features to enable for your virtual machine",
+            "step5-tip": "This setting affects the speed of your virtual machines and also how many you can have running at the same time without troubles. Leave it on <strong>Balanced</strong> if you are not sure!",
+            "step6": "Select the optional features you would like to enable for your virtual machine",
             "step6-info": "<strong>Shared directory:</strong> this option creates for you a folder that is shared between your mac and your Linux virtual machine, allowing you to transfer documents and other files facilitating your work. To know more on how to use this feature keep reading!",
             "step7": "When you are satisfied with your options, click on <strong>Confirm and Create</strong>"
         },
@@ -66,7 +66,7 @@
         "title": "macOS Virtual Machine",
 
         "before-we-start": {
-            "note": "Due to a limitation imposed by Apple, you can create as many macOS VMs as you want, but you can only start two at any given time.<br>If you try to start more than two macOS virtual machines, you will be greeted by the following error."
+            "note": "Due to limitations imposed by Apple's license agreement, it is only possible to run a fixed number of macOS virtual machines at the same time.<br>This restriction is set by Apple, not Tesseract. Please refer to Apple's policies for more details. The following error may pop up."
         },
 
         "creation": {

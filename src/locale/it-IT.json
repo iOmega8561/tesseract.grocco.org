@@ -40,13 +40,13 @@
 
         "creation": {
             "title": "Creazione della Macchina Virtuale",
-            "step1": "Avvia Tesseract, e clicca su <strong>Crea una nuova Macchina Virtuale</strong>",
+            "step1": "Avvia Tesseract, e clicca su <strong>Nuova Macchina Virtuale</strong>",
             "step3": "Sotto <strong>Media di Installazione</strong>, saranno previste due opzioni:",
-            "step3-1-tip": "Cliccando sul pulsantino a destra, si aprirà il browser e partirà il download dell'immagine scelta. Prima di continuare aspetta che il download termini!",
+            "step3-1-tip": "Cliccando sul pulsantino a destra di uno dei media consigliati, verrà lanciato il browser predefinito e partirà il download dell'immagine scelta. Prima di continuare aspetta che il download termini!",
             "step3-2": "Se disponi già di un file oppure lo hai appena scaricato dallo step precedente, clicca su <strong>+ Scegli File</strong",
             "step5": "Seleziona il profilo prestazionale che preferisci",
-            "step5-tip": "Questa impostazione ha effetto sulla velocità di esecuzione e altri fattori. E' consigliato lasciarla su <strong>Bilanciato</strong> se non si è sicuri di cosa fare!",
-            "step6": "Seleziona le caratteristiche opzionali di cui la macchina virtuale deve disporre",
+            "step5-tip": "Questa impostazione ha effetto sulla velocità della macchina virtuale e in generale su quante potrai eseguirne in contemporanea. E' consigliato lasciarla su <strong>Bilanciato</strong> se non si è sicuri di cosa fare!",
+            "step6": "Seleziona le caratteristiche opzionali che desideri attivare per la tua nuova macchina virtuale",
             "step6-info": "<strong>Cartella condivisa:</strong> questa opzione crea per te una cartella condivisa tra il tuo Mac e la tua macchina virtuale Linux, permettendoti di trasferire documenti e altri file facilitando il tuo lavoro. Per saperne di più su come utilizzare questa funzione continua a leggere!",
             "step7": "Una volta terminata la configurazione, clicca su <strong>Conferma e Crea</strong>"
         },
@@ -65,7 +65,7 @@
         "title": "Macchina Virtuale macOS",
 
         "before-we-start": {
-            "note": "A causa di una limitazione imposta da Apple, è possibile create molteplici macchine macOS, ma sono due per volta possono essere avviate.<br>Provando ad avviarne più di due, insieme, verrà mostrato il seguente errore."
+            "note": "Per via delle limitazioni imposte dall'accordo di licenza di Apple, è possibile eseguire solo un numero limitato di macchine virtuali macOS contemporaneamente.<br>Questo è un vincolo stabilito da Apple, e non dipende da Tesseract. Verifica le politiche di Apple per maggiori dettagli. Potrebbe comparire il seguente errore."
         },
 
         "creation": {
