@@ -48,7 +48,7 @@
             "step5": "Select the desired performance preset",
             "step5-tip": "This settings affects execution speed and other factors. Leave it on <strong>Balanced</strong> if you are not sure!",
             "step6": "Select the optional features to enable for your virtual machine",
-            "step6-info": "<strong>Network type:</strong> This option let's you decide wether the virtual machine should be network isolated (None), connected using NAT (Shared) or on a bridged network (Advanced). Shared is recommended for beginner users.<br><strong>Enable shared directory:</strong> this option creates for you a folder that is shared between your mac and your Linux virtual machine, allowing you to transfer documents and other files facilitating your work. To know more on how to use this feature keep reading!",
+            "step6-info": "<strong>Shared directory:</strong> this option creates for you a folder that is shared between your mac and your Linux virtual machine, allowing you to transfer documents and other files facilitating your work. To know more on how to use this feature keep reading!",
             "step7": "When you are satisfied with your options, click on <strong>Confirm and Create</strong>"
         },
 

@@ -47,7 +47,7 @@
             "step5": "Seleziona il profilo prestazionale che preferisci",
             "step5-tip": "Questa impostazione ha effetto sulla velocità di esecuzione e altri fattori. E' consigliato lasciarla su <strong>Bilanciato</strong> se non si è sicuri di cosa fare!",
             "step6": "Seleziona le caratteristiche opzionali di cui la macchina virtuale deve disporre",
-            "step6-info": "<strong>Tipo di rete:</strong> questa opzione consente di decidere se la macchina virtuale deve essere isolata in rete (Nessuno), connessa tramite NAT (Condivisa) o su una rete con bridge (Avanzata). Condivisa è consigliato agli utenti principianti.<br><strong>Abilita directory condivisa:</strong> questa opzione crea per te una cartella condivisa tra il tuo Mac e la tua macchina virtuale Linux, permettendoti di trasferire documenti e altri file facilitando il tuo lavoro. Per saperne di più su come utilizzare questa funzione continua a leggere!",
+            "step6-info": "<strong>Cartella condivisa:</strong> questa opzione crea per te una cartella condivisa tra il tuo Mac e la tua macchina virtuale Linux, permettendoti di trasferire documenti e altri file facilitando il tuo lavoro. Per saperne di più su come utilizzare questa funzione continua a leggere!",
             "step7": "Una volta terminata la configurazione, clicca su <strong>Conferma e Crea</strong>"
         },
 
