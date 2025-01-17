@@ -81,10 +81,6 @@
             "step2": "Select <strong>Confirm</strong> when the alert dialog pops up",
             "step3": "The installation process will start, don't worry if it takes time!",
             "step4": "When the installation reaches 100%, the Virtual Machine shuts off automatically. Next time just start it and enjoy!"
-        },
-
-        "sidenote": {
-            "message": "Don't throw away your .IPSW files! Tesseract needs them to initialize your virtual machine at every startup. If the original file is deleted, or moved, the virtual machine will report a configuration error. Don't worry, you can always use another file: select your VM from the main menu and click on the installation media to select a new one."
         }
     },
 
