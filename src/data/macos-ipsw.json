@@ -1,8 +1,8 @@
 [
     {
-        "name": "Sequoia 15.3.1",
+        "name": "Sequoia 15.3.2",
         "logoURL": "https://tesseract.grocco.org/img/os-assets/sequoia.png",
-        "downloadURL": "https://updates.cdn-apple.com/2025WinterFCS/fullrestores/072-70618/42F1A8CC-7E07-4329-958A-757FF600C303/UniversalMac_15.3.1_24D70_Restore.ipsw"
+        "downloadURL": "https://updates.cdn-apple.com/2025WinterFCS/fullrestores/082-01504/828B8EF9-8134-49D5-B24A-0BA504FC5ECC/UniversalMac_15.3.2_24D81_Restore.ipsw"
     },
     {
         "name": "Sonoma 14.6.1",
