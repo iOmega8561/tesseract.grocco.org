@@ -1,8 +1,8 @@
 [
     {
-        "name": "Debian 12",
+        "name": "Debian 12.10",
         "logoURL": "https://tesseract.grocco.org/img/os-assets/debian.png",
-        "downloadURL": "https://cdimage.debian.org/debian-cd/current/arm64/iso-cd/debian-12.9.0-arm64-netinst.iso"
+        "downloadURL": "https://cdimage.debian.org/debian-cd/current/arm64/iso-cd/debian-12.10.0-arm64-netinst.iso"
     },
     {
         "name": "Fedora Server 41",
@@ -15,18 +15,18 @@
         "downloadURL": "https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/aarch64/iso/Fedora-KDE-Live-aarch64-41-1.4.iso"
     },
     {
-        "name": "Ubuntu Server 24.04.1",
+        "name": "Ubuntu Server 25.04",
         "logoURL": "https://tesseract.grocco.org/img/os-assets/ubuntu.png",
-        "downloadURL": "https://cdimage.ubuntu.com/releases/24.04/release/ubuntu-24.04.1-live-server-arm64.iso"
+        "downloadURL": "https://cdimage.ubuntu.com/releases/25.04/release/ubuntu-25.04-live-server-arm64.iso"
     },
     {
-        "name": "Arch Linux (archboot)",
-        "logoURL": "https://tesseract.grocco.org/img/os-assets/archlinux.png",
-        "downloadURL": "https://release.archboot.com/aarch64/2025.01/iso/archboot-2025.01.06-02.29-6.12.1-2-aarch64-ARCH-aarch64.iso"
+        "name": "Ubuntu Server 24.04.2",
+        "logoURL": "https://tesseract.grocco.org/img/os-assets/ubuntu.png",
+        "downloadURL": "https://cdimage.ubuntu.com/releases/24.04/release/ubuntu-24.04.2-live-server-arm64.iso"
     },
     {
         "name": "Alpine Linux",
         "logoURL": "https://tesseract.grocco.org/img/os-assets/alpine.png",
-        "downloadURL": "https://dl-cdn.alpinelinux.org/alpine/v3.20/releases/aarch64/alpine-standard-3.20.3-aarch64.iso"
+        "downloadURL": "https://dl-cdn.alpinelinux.org/alpine/v3.21/releases/aarch64/alpine-standard-3.21.3-aarch64.iso"
     }
 ]
