@@ -1,5 +1,10 @@
 [
     {
+        "name": "Tahoe 26 Beta",
+        "logoURL": "https://tesseract.grocco.org/img/os-assets/tahoe.png",
+        "downloadURL": "https://updates.cdn-apple.com/2025SummerSeed/fullrestores/082-55592/95F6DA16-4116-491E-B332-7165C051E1C5/UniversalMac_26.0_25A5279m_Restore.ipsw"
+    },
+    {
         "name": "Sequoia 15.5",
         "logoURL": "https://tesseract.grocco.org/img/os-assets/sequoia.png",
         "downloadURL": "https://updates.cdn-apple.com/2025SpringFCS/fullrestores/082-44534/CE6C1054-99A3-4F67-A823-3EE9E6510CDE/UniversalMac_15.5_24F74_Restore.ipsw"
