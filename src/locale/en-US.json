@@ -66,7 +66,8 @@
         "title": "macOS Virtual Machine",
 
         "before-we-start": {
-            "note": "Due to limitations imposed by Apple's license agreement, it is only possible to run a fixed number of macOS virtual machines at the same time.<br>This restriction is set by Apple, not Tesseract. Please refer to Apple's policies for more details. The following error may pop up."
+            "note": "Due to limitations imposed by Apple's license agreement, it is only possible to run a fixed number of macOS virtual machines at the same time.<br>This restriction is set by Apple, not Tesseract. Please refer to Apple's policies for more details. The following error may pop up.",
+            "beta-warning": "If you wish to install a macOS version newer than what's on your physical Mac, please ensure to also install required resources like the appropriate Xcode version. For example, installing macOS 26 beta while having 15.5 Sequoia on the physical Mac, will also require Xcode 26 beta to be installed. If the appropriate resources are not present on the host system, the installation will fail."
         },
 
         "creation": {

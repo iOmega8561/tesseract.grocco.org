@@ -65,7 +65,8 @@
         "title": "Macchina Virtuale macOS",
 
         "before-we-start": {
-            "note": "Per via delle limitazioni imposte dall'accordo di licenza di Apple, è possibile eseguire solo un numero limitato di macchine virtuali macOS contemporaneamente.<br>Questo è un vincolo stabilito da Apple, e non dipende da Tesseract. Verifica le politiche di Apple per maggiori dettagli. Potrebbe comparire il seguente errore."
+            "note": "Per via delle limitazioni imposte dall'accordo di licenza di Apple, è possibile eseguire solo un numero limitato di macchine virtuali macOS contemporaneamente.<br>Questo è un vincolo stabilito da Apple, e non dipende da Tesseract. Verifica le politiche di Apple per maggiori dettagli. Potrebbe comparire il seguente errore.",
+            "beta-warning": "Se desideri installare una versione di macOS più recente di quella presente sul tuo Mac fisico, assicurati di installare anche le risorse necessarie, come la versione appropriata di Xcode. Ad esempio, installare macOS 26 beta mentre sul Mac fisico è già presente Sequoia 15.5 richiederà anche l'installazione di Xcode 26 beta. Se le risorse non sono presenti sul sistema ospite, l'installazione fallirà."
         },
 
         "creation": {
