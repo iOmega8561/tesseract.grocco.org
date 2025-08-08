@@ -5,9 +5,9 @@
         "downloadURL": "https://updates.cdn-apple.com/2025SummerSeed/fullrestores/082-55592/95F6DA16-4116-491E-B332-7165C051E1C5/UniversalMac_26.0_25A5279m_Restore.ipsw"
     },
     {
-        "name": "Sequoia 15.5",
+        "name": "Sequoia 15.6",
         "logoURL": "https://tesseract.grocco.org/img/os-assets/sequoia.png",
-        "downloadURL": "https://updates.cdn-apple.com/2025SpringFCS/fullrestores/082-44534/CE6C1054-99A3-4F67-A823-3EE9E6510CDE/UniversalMac_15.5_24F74_Restore.ipsw"
+        "downloadURL": "https://updates.cdn-apple.com/2025SummerFCS/fullrestores/082-08674/51294E4D-A273-44BE-A280-A69FC347FB87/UniversalMac_15.6_24G84_Restore.ipsw"
     },
     {
         "name": "Sonoma 14.6.1",
