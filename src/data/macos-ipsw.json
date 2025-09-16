@@ -1,13 +1,13 @@
 [
     {
-        "name": "Tahoe 26 Beta",
+        "name": "Tahoe 26.0",
         "logoURL": "https://tesseract.grocco.org/img/os-assets/tahoe.png",
-        "downloadURL": "https://updates.cdn-apple.com/2025SummerSeed/fullrestores/082-55592/95F6DA16-4116-491E-B332-7165C051E1C5/UniversalMac_26.0_25A5279m_Restore.ipsw"
+        "downloadURL": "https://updates.cdn-apple.com/2025FallFCS/fullrestores/093-37622/CE01FAB2-7F26-48EE-AEE4-5E57A7F6D8BB/UniversalMac_26.0_25A354_Restore.ipsw"
     },
     {
-        "name": "Sequoia 15.5",
+        "name": "Sequoia 15.6.1",
         "logoURL": "https://tesseract.grocco.org/img/os-assets/sequoia.png",
-        "downloadURL": "https://updates.cdn-apple.com/2025SpringFCS/fullrestores/082-44534/CE6C1054-99A3-4F67-A823-3EE9E6510CDE/UniversalMac_15.5_24F74_Restore.ipsw"
+        "downloadURL": "https://updates.cdn-apple.com/2025SummerFCS/fullrestores/093-10809/CFD6DD38-DAF0-40DA-854F-31AAD1294C6F/UniversalMac_15.6.1_24G90_Restore.ipsw"
     },
     {
         "name": "Sonoma 14.6.1",
