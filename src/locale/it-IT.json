@@ -10,7 +10,18 @@
         "button-linux": "INIZIA CON LINUX",
         "button-macos": "INIZIA CON MACOS",
         "slogan-line1": "Macchine Virtuali",
-        "slogan-line2": "mai state così semplici."
+        "slogan-line2": "mai state così semplici.",
+        "slogan-line3": "Fondamenta Robuste",
+        "whatsnew-heading": "Perchè fa la differenza",
+        "whatsnew-text": "VirtualizationKit introduce una API Swift moderna e semplice per creare e gestire macchine virtuali su macOS. Configura facilmente template per Linux o macOS, imposta la rete e avvia più VM contemporaneamente, tutto in puro Swift. I preset di prestazioni preconfigurati e le topologie di rete semplificano il primo approccio con la virtualizzazione.",
+        "createvm-heading": "Crea Macchine Virtuali con Swift",
+        "createvm-text": "Definisci la tua VM utilizzando i tipi nativi di Swift, senza file di configurazione aggiuntivi da gestire. VirtualizationKit è progettato con la Concorrenza Strutturata in mente, garantendo un'integrazione chiara e senza soluzione di continuità. Le transizioni di stato sono gestite con la più recente e avanzata Observation API e più flessibili publisher Combine. Come per SwiftUI, è il codice a dettare le regole. Basterà dichiarare le configurazioni, e VirtualizationKit si occuperà del resto.",
+        "advanced-heading": "Interfaccia Potente ed Estendibile",
+        "advanced-text": "VirtualizationKit offre un'API semplificata che nasconde la complessità tipica dei back-end di virtualizzazione, eliminando la necessità di una profonda conoscenza delle API di sistema e scenari specifici degli hypervisor. L'interfaccia unificata e generica offre punti di estensione e permette di ampliare senza soluzione di continuità il supporto del framework ad altre tecnologie di virtualizzazione, come QEMU, per offrire una gamma più ampia di funzionalità agli utenti finali.",
+        "swiftui-heading": "Progettato pensando a SwiftUI",
+        "swiftui-text": "SwiftUI è supportato nativamente dal framework. Gli aggiornamenti di stato vengono propagati grazie all'uso della Observation API introdotta con macOS Sonoma 14.0, con una solida implementazione MVVM che garantisce aggiornamenti UI stabili in tempo reale e riduce la necessità di codice boilerplate. I publisher Combine sono ancora disponibili e pronti all'uso se necessario, favorendo l'adozione in scenari di sviluppo dove è richiesta maggiore flessibilità.",
+        "compatibility-heading": "Compatibile con le API di Virtualizzazione di Apple",
+        "compatibility-text": "VirtualizationKit offre supporto nativo per Apple Virtualization, assicurando un'integrazione immediata, massima compatibilità e prestazioni ottimali nella creazione e gestione di macchine virtuali macOS. E questo è solo l'inizio: molte altre funzionalità arriveranno in futuro!"
     },
 
     "privacy": {
