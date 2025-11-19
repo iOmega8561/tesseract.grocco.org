@@ -1,6 +1,6 @@
 body {
-    background: linear-gradient(to bottom, #1a3b79, #5e88d7, #b1caff);
-    color: white;
+    background: linear-gradient(to bottom, #dfdfdf, #b4c7db, #aeb7df);
+    color: black;
 }
 
 main {
@@ -39,6 +39,21 @@ header {
     line-height: 50px;
     align-items: center;
     padding-top: 20px;
+    font-size: medium !important;
+}
+
+.hero-separator {
+    padding-top: 120px !important;
+}
+
+.macbook {
+    width: 100% !important;
+    max-width: 1100px !important;
+}
+
+.xcode {
+    max-width: 900px !important;
+    width: 100% !important;
 }
 
 header {
@@ -55,6 +70,11 @@ a {
     text-decoration: none;
 }
 
+.card {
+    width: 90%;
+    max-width: 900px;
+}
+
 @media only screen {
     .hero-horizontal {
         padding-top: 40px;
@@ -66,6 +86,7 @@ a {
 
 @media (prefers-color-scheme: dark) {
     body {
-        background: linear-gradient(to bottom, #182640, #385482, #586c86);
+        background: linear-gradient(to bottom, #111111, #4b535b, #5c6177);
+        color: white;
     }
 }
