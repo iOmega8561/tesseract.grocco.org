@@ -10,7 +10,18 @@
         "button-linux": "GET STARTED WITH LINUX",
         "button-macos": "GET STARTED WITH MACOS",
         "slogan-line1": "Virtual Machines",
-        "slogan-line2": "have never been so easy."
+        "slogan-line2": "have never been so easy.",
+        "slogan-line3": "Solid Foundations",
+        "whatsnew-heading": "Why it makes a difference",
+        "whatsnew-text": "VirtualizationKit introduces a straightforward and modern Swift API for creating and managing virtual machines on macOS. Easily configure Linux or macOS templates, set up networking, and launch multiple VMs concurrently — all in pure Swift. Pre-configured Performance Presets and Network Topologies make it easier to get started with virtualization.",
+        "createvm-heading": "Create Virtual Machines with Swift",
+        "createvm-text": "Define your VM using native Swift types, with no extra config files to manage. VirtualizationKit is designed with Structured Concurrency in mind, ensuring a clear and seamless integration. State transitions are handled with the latest and greatest Observation API and powerful Combine publishers. As with SwiftUI, the source of truth is in your code. Just declare your configurations, and VirtualizationKit handles the rest.",
+        "advanced-heading": "Powerful, Extensible Interface",
+        "advanced-text": "VirtualizationKit offers a streamlined API that hides the higher complexity that comes with virtualization back-ends, removing the need of deep system APIs knowledge and hypervisor-specific scenarios. The unified and generic interface offers extension points and allows to seamlessly expand the framework support for other virtualization technologies, like QEMU, for a broader range of features that can be offered to end-users.",
+        "swiftui-heading": "Designed with SwiftUI in mind",
+        "swiftui-text": "SwiftUI is natively supported by the framework. State updates are propagated thanks to the usage of the Observation API introduced with macOS Sonoma 14.0, with a solid MVVM implementation that ensures stable real-time UI updates and reduces the need for boilerplate code. Combine publishers are still available and ready to be used if needed, fostering adoption in development scenarios where higher flexibility is required.",
+        "compatibility-heading": "Compatible with Apple’s Virtualization APIs",
+        "compatibility-text": "VirtualizationKit supports Apple’s Virtualization framework out of the box, ensuring maximum compatibility and performance to spin up macOS Virtual Machines that leave nothing to be desired. More is yet to come!"
     },
 
     "privacy": {
