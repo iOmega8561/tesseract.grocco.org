@@ -1,4 +1,4 @@
-# The Tesseract Project
+# tesseract.grocco.org
 
 <div align="center">
   <img src="src/img/appicon1024.png" width="200" height="200">
@@ -50,7 +50,3 @@ The website hosted in this repository is distributed under the MIT License. See 
 
 > [!CAUTION]
 > The Tesseract logo, code and any related assets, are not covered under MIT and are protected under &copy; copyright law. Unauthorized use, reproduction, or distribution of the logo or any of the assets, is prohibited.
-
-## Contact
-
-For any inquiries or feedback, please feel free to contact me at <a href="mailto:help@grocco.org">help@grocco.org</a>
