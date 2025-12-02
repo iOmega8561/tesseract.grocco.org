@@ -31,10 +31,7 @@ Tesseract is developed using the latest Apple technologies to provide a seamless
 - **SwiftUI** for building a modern, intuitive user interface.
 - **AppKit** for integrating with macOS features.
 - **SwiftData** for efficient data management.
-- **VirtualizationKit**: as a solid foundation to build robust and compelling virtualization features.
-
-> [!NOTE]
-> VirtualizationKit is a new, modern, custom framework, that expands on Apple Virtualization to enhance features and stability. Tailored for SwiftUI and Swift's structured concurrency model, this framework allows to build great virtualization software.
+- [VirtualizationKit](https://github.com/iOmega8561/VirtualizationKit): as a solid foundation to build robust and compelling virtualization features.
 
 ## Minimum Requirements
 
