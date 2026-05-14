@@ -1,8 +1,8 @@
 [
     {
-        "name": "Tahoe 26.2",
+        "name": "Tahoe 26.5",
         "logoURL": "https://tesseract.grocco.org/img/os-assets/tahoe.png",
-        "downloadURL": "https://updates.cdn-apple.com/2025FallFCS/fullrestores/093-37399/E144C918-CF99-4BBC-B1D0-3E739B9A3F2D/UniversalMac_26.2_25C56_Restore.ipsw"
+        "downloadURL": "https://updates.cdn-apple.com/2026SpringFCS/fullrestores/122-58869/DFB1CEEF-5619-4591-9924-E20DB2C8FED0/UniversalMac_26.5_25F71_Restore.ipsw"
     },
     {
         "name": "Sequoia 15.6.1",
