@@ -1,8 +1,13 @@
 [
     {
-        "name": "Tahoe 26.5",
+        "name": "Golden Gate 27.2.1",
+        "logoURL": "https://tesseract.grocco.org/img/os-assets/goldengate.png",
+        "downloadURL": "https://updates.cdn-apple.com/2026FallFCS/c202a724-db7e-4d56-917b-110aa0226507/UniversalMac_27.2.1_26B131_Restore.ipsw"
+    },
+    {
+        "name": "Tahoe 26.6.2",
         "logoURL": "https://tesseract.grocco.org/img/os-assets/tahoe.png",
-        "downloadURL": "https://updates.cdn-apple.com/2026SpringFCS/fullrestores/122-58869/DFB1CEEF-5619-4591-9924-E20DB2C8FED0/UniversalMac_26.5_25F71_Restore.ipsw"
+        "downloadURL": "https://updates.cdn-apple.com/2026SummerFCS/fullrestores/140-75212/A2A24B94-1FC1-45A3-93F7-C51B02AF1F4D/UniversalMac_26.6.2_25G83_Restore.ipsw"
     },
     {
         "name": "Sequoia 15.6.1",
